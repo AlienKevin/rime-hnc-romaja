@@ -49,7 +49,8 @@ speller:
   initials: 'zyxwvutsrqponmlkjihgfedcba'
   delimiter: " '"
   algebra:
-    - derive/(^|[ '])q([aeouiy])/$1$2/
+    # - derive/(^|[ '])x([aeouiy])/$1$2/
+    - derive/x$/ng/
 #    - derive/l/n/
 #    - derive/(^|[ '])([nl])i/$1i/
     - derive/l/r/
