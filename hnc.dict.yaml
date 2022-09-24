@@ -2,18 +2,18 @@
 # mim: set ts=8 sw=8 noet:
 # encoding: utf-8
 #
-# hangyl - 한글
+# HNC Romaja
 # Patrick <ipatrickmac@gmail.com>
 # 韓文轉寫方案
 
 ---
 
-name: hangyl
+name: hnc
 version: "0.13"
 sort: by_weight	#original
 use_preset_vocabulary: false
 import_tables:
-  - hangyl_hanja
+  - hnc_hanja
 ...
 
 ㄱ	g	0%
@@ -38,7 +38,7 @@ import_tables:
 값	gabs	1000
 갓	gas	1000
 갔	gass	1000
-강	gaq	1000
+강	gax	1000
 갖	gaj	1000
 갗	gac	1000
 갘	gak
@@ -66,7 +66,7 @@ import_tables:
 갮	gaibs
 갯	gais	1000
 갰	gaiss	1000
-갱	gaiq	1000
+갱	gaix	1000
 갲	gaij
 갳	gaic
 갴	gaik
@@ -94,7 +94,7 @@ import_tables:
 걊	giabs
 걋	gias	1000
 걌	giass
-걍	giaq	1000
+걍	giax	1000
 걎	giaj
 걏	giac
 걐	giak
@@ -122,7 +122,7 @@ import_tables:
 걦	giaibs
 걧	giais
 걨	giaiss
-걩	giaiq
+걩	giaix
 걪	giaij
 걫	giaic
 걬	giaik
@@ -150,7 +150,7 @@ import_tables:
 겂	gebs
 것	ges	1000
 겄	gess	1000
-겅	geq	1000
+겅	gex	1000
 겆	gej	1000
 겇	gec
 겈	gek
@@ -178,7 +178,7 @@ import_tables:
 겞	geibs
 겟	geis	1000
 겠	geiss	1000
-겡	geiq	1000
+겡	geix	1000
 겢	geij
 겣	geic
 겤	geik
@@ -206,7 +206,7 @@ import_tables:
 겺	giebs
 겻	gies	1000
 겼	giess	1000
-경	gieq	1000
+경	giex	1000
 겾	giej
 겿	giec
 곀	giek
@@ -234,7 +234,7 @@ import_tables:
 곖	gieibs
 곗	gieis	1000
 곘	gieiss
-곙	gieiq
+곙	gieix
 곚	gieij
 곛	gieic
 곜	gieik
@@ -262,7 +262,7 @@ import_tables:
 곲	gobs
 곳	gos	1000
 곴	goss
-공	goq	1000
+공	gox	1000
 곶	goj	1000
 곷	goc
 곸	gok
@@ -290,7 +290,7 @@ import_tables:
 괎	goabs
 괏	goas	1000
 괐	goass
-광	goaq	1000
+광	goax	1000
 괒	goaj
 괓	goac
 괔	goak
@@ -318,7 +318,7 @@ import_tables:
 괪	goaibs
 괫	goais
 괬	goaiss	1000
-괭	goaiq	1000
+괭	goaix	1000
 괮	goaij
 괯	goaic
 괰	goaik
@@ -346,7 +346,7 @@ import_tables:
 굆	goibs
 굇	gois	1000
 굈	goiss
-굉	goiq	1000
+굉	goix	1000
 굊	goij
 굋	goic
 굌	goik
@@ -374,7 +374,7 @@ import_tables:
 굢	giobs
 굣	gios	1000
 굤	gioss
-굥	gioq
+굥	giox
 굦	gioj
 굧	gioc
 굨	giok
@@ -402,7 +402,7 @@ import_tables:
 굾	gubs
 굿	gus	1000
 궀	guss
-궁	guq	1000
+궁	gux	1000
 궂	guj	1000
 궃	guc
 궄	guk
@@ -430,7 +430,7 @@ import_tables:
 궚	guebs
 궛	gues
 궜	guess	1000
-궝	gueq	1000
+궝	guex	1000
 궞	guej
 궟	guec
 궠	guek
@@ -458,7 +458,7 @@ import_tables:
 궶	gueibs
 궷	gueis	1000
 궸	gueiss
-궹	gueiq
+궹	gueix
 궺	gueij
 궻	gueic
 궼	gueik
@@ -486,7 +486,7 @@ import_tables:
 귒	guibs
 귓	guis	1000
 귔	guiss
-귕	guiq
+귕	guix
 귖	guij
 귗	guic
 귘	guik
@@ -514,69 +514,69 @@ import_tables:
 귮	giubs
 귯	gius
 귰	giuss
-귱	giuq
+귱	giux
 귲	giuj
 귳	giuc
 귴	giuk
 귵	giut
 귶	giup
 귷	giuh
-그	gy	1000
-극	gyg	1000
-귺	gygg
-귻	gygs
-근	gyn	1000
-귽	gynj
-귾	gynh
-귿	gyd	1000
-글	gyl	1000
-긁	gylg	1000
-긂	gylm
-긃	gylb
-긄	gyls
-긅	gylt
-긆	gylp
-긇	gylh
-금	gym	1000
-급	gyb	1000
-긊	gybs
-긋	gys	1000
-긌	gyss
-긍	gyq	1000
-긎	gyj
-긏	gyc
-긐	gyk
-긑	gyt
-긒	gyp
-긓	gyh
-긔	gyi	1000
-긕	gyig
-긖	gyigg
-긗	gyigs
-긘	gyin
-긙	gyins
-긚	gyinh
-긛	gyid
-긜	gyil
-긝	gyilg
-긞	gyilm
-긟	gyilb
-긠	gyils
-긡	gyilt
-긢	gyilp
-긣	gyilh
-긤	gyim
-긥	gyib
-긦	gyibs
-긧	gyis
-긨	gyiss
-긩	gyiq
-긪	gyij
-긫	gyic
-긬	gyik
-긭	gyit
-긮	gyip
-긯	gyih
+그	gw	1000
+극	gwg	1000
+귺	gwgg
+귻	gwgs
+근	gwn	1000
+귽	gwnj
+귾	gwnh
+귿	gwd	1000
+글	gwl	1000
+긁	gwlg	1000
+긂	gwlm
+긃	gwlb
+긄	gwls
+긅	gwlt
+긆	gwlp
+긇	gwlh
+금	gwm	1000
+급	gwb	1000
+긊	gwbs
+긋	gws	1000
+긌	gwss
+긍	gwx	1000
+긎	gwj
+긏	gwc
+긐	gwk
+긑	gwt
+긒	gwp
+긓	gwh
+긔	gwi	1000
+긕	gwig
+긖	gwigg
+긗	gwigs
+긘	gwin
+긙	gwins
+긚	gwinh
+긛	gwid
+긜	gwil
+긝	gwilg
+긞	gwilm
+긟	gwilb
+긠	gwils
+긡	gwilt
+긢	gwilp
+긣	gwilh
+긤	gwim
+긥	gwib
+긦	gwibs
+긧	gwis
+긨	gwiss
+긩	gwix
+긪	gwij
+긫	gwic
+긬	gwik
+긭	gwit
+긮	gwip
+긯	gwih
 기	gi	1000
 긱	gig	1000
 긲	gigg
@@ -598,7 +598,7 @@ import_tables:
 깂	gibs
 깃	gis	1000
 깄	giss
-깅	giq	1000
+깅	gix	1000
 깆	gij	1000
 깇	gic
 깈	gik
@@ -627,7 +627,7 @@ import_tables:
 깞	ggabs
 깟	ggas	1000
 깠	ggass	1000
-깡	ggaq	1000
+깡	ggax	1000
 깢	ggaj
 깣	ggac
 깤	ggak
@@ -655,7 +655,7 @@ import_tables:
 깺	ggaibs
 깻	ggais	1000
 깼	ggaiss	1000
-깽	ggaiq	1000
+깽	ggaix	1000
 깾	ggaij
 깿	ggaic
 꺀	ggaik
@@ -683,7 +683,7 @@ import_tables:
 꺖	ggiabs
 꺗	ggias
 꺘	ggiass
-꺙	ggiaq
+꺙	ggiax
 꺚	ggiaj
 꺛	ggiac
 꺜	ggiak
@@ -711,7 +711,7 @@ import_tables:
 꺲	ggiaibs
 꺳	ggiais
 꺴	ggiaiss
-꺵	ggiaiq
+꺵	ggiaix
 꺶	ggiaij
 꺷	ggiaic
 꺸	ggiaik
@@ -739,7 +739,7 @@ import_tables:
 껎	ggebs
 껏	gges	1000
 껐	ggess	1000
-껑	ggeq	1000
+껑	ggex	1000
 껒	ggej
 껓	ggec
 껔	ggek
@@ -767,7 +767,7 @@ import_tables:
 껪	ggeibs
 껫	ggeis	1000
 껬	ggeiss
-껭	ggeiq	1000
+껭	ggeix	1000
 껮	ggeij
 껯	ggeic
 껰	ggeik
@@ -795,7 +795,7 @@ import_tables:
 꼆	ggiebs
 꼇	ggies	1000
 꼈	ggiess	1000
-꼉	ggieq
+꼉	ggiex
 꼊	ggiej
 꼋	ggiec
 꼌	ggiek
@@ -823,7 +823,7 @@ import_tables:
 꼢	ggieibs
 꼣	ggieis
 꼤	ggieiss
-꼥	ggieiq
+꼥	ggieix
 꼦	ggieij
 꼧	ggieic
 꼨	ggieik
@@ -851,7 +851,7 @@ import_tables:
 꼾	ggobs
 꼿	ggos	1000
 꽀	ggoss
-꽁	ggoq	1000
+꽁	ggox	1000
 꽂	ggoj	1000
 꽃	ggoc	1000
 꽄	ggok
@@ -879,7 +879,7 @@ import_tables:
 꽚	ggoabs
 꽛	ggoas
 꽜	ggoass	1000
-꽝	ggoaq	1000
+꽝	ggoax	1000
 꽞	ggoaj
 꽟	ggoac
 꽠	ggoak
@@ -907,7 +907,7 @@ import_tables:
 꽶	ggoaibs
 꽷	ggoais
 꽸	ggoaiss
-꽹	ggoaiq	1000
+꽹	ggoaix	1000
 꽺	ggoaij
 꽻	ggoaic
 꽼	ggoaik
@@ -935,7 +935,7 @@ import_tables:
 꾒	ggoibs
 꾓	ggois
 꾔	ggoiss
-꾕	ggoiq	1000
+꾕	ggoix	1000
 꾖	ggoij
 꾗	ggoic
 꾘	ggoik
@@ -963,7 +963,7 @@ import_tables:
 꾮	ggiobs
 꾯	ggios
 꾰	ggioss
-꾱	ggioq
+꾱	ggiox
 꾲	ggioj
 꾳	ggioc
 꾴	ggiok
@@ -991,7 +991,7 @@ import_tables:
 꿊	ggubs
 꿋	ggus	1000
 꿌	gguss
-꿍	gguq	1000
+꿍	ggux	1000
 꿎	gguj	1000
 꿏	gguc
 꿐	gguk
@@ -1019,7 +1019,7 @@ import_tables:
 꿦	gguebs
 꿧	ggues
 꿨	gguess	1000
-꿩	ggueq	1000
+꿩	gguex	1000
 꿪	gguej
 꿫	gguec
 꿬	gguek
@@ -1047,7 +1047,7 @@ import_tables:
 뀂	ggueibs
 뀃	ggueis
 뀄	ggueiss	1000
-뀅	ggueiq
+뀅	ggueix
 뀆	ggueij
 뀇	ggueic
 뀈	ggueik
@@ -1075,7 +1075,7 @@ import_tables:
 뀞	gguibs
 뀟	gguis
 뀠	gguiss
-뀡	gguiq
+뀡	gguix
 뀢	gguij
 뀣	gguic
 뀤	gguik
@@ -1103,69 +1103,69 @@ import_tables:
 뀺	ggiubs
 뀻	ggius
 뀼	ggiuss
-뀽	ggiuq
+뀽	ggiux
 뀾	ggiuj
 뀿	ggiuc
 끀	ggiuk
 끁	ggiut
 끂	ggiup
 끃	ggiuh
-끄	ggy	1000
-끅	ggyg	1000
-끆	ggygg
-끇	ggygs
-끈	ggyn	1000
-끉	ggynj
-끊	ggynh	1000
-끋	ggyd
-끌	ggyl	1000
-끍	ggylg
-끎	ggylm	1000
-끏	ggylb
-끐	ggyls
-끑	ggylt
-끒	ggylp
-끓	ggylh	1000
-끔	ggym	1000
-끕	ggyb	1000
-끖	ggybs
-끗	ggys	1000
-끘	ggyss
-끙	ggyq	1000
-끚	ggyj
-끛	ggyc
-끜	ggyk
-끝	ggyt	1000
-끞	ggyp
-끟	ggyh
-끠	ggyi
-끡	ggyig
-끢	ggyigg
-끣	ggyigs
-끤	ggyin
-끥	ggyinj
-끦	ggyinh
-끧	ggyid
-끨	ggyil
-끩	ggyilg
-끪	ggyilm
-끫	ggyilb
-끬	ggyils
-끭	ggyilt
-끮	ggyilp
-끯	ggyilh
-끰	ggyim
-끱	ggyib
-끲	ggyibs
-끳	ggyis
-끴	ggyiss
-끵	ggyiq
-끶	ggyij
-끷	ggyic
-끸	ggyik
-끹	ggyit
-끺	ggyip
-끻	ggyih
+끄	ggw	1000
+끅	ggwg	1000
+끆	ggwgg
+끇	ggwgs
+끈	ggwn	1000
+끉	ggwnj
+끊	ggwnh	1000
+끋	ggwd
+끌	ggwl	1000
+끍	ggwlg
+끎	ggwlm	1000
+끏	ggwlb
+끐	ggwls
+끑	ggwlt
+끒	ggwlp
+끓	ggwlh	1000
+끔	ggwm	1000
+끕	ggwb	1000
+끖	ggwbs
+끗	ggws	1000
+끘	ggwss
+끙	ggwx	1000
+끚	ggwj
+끛	ggwc
+끜	ggwk
+끝	ggwt	1000
+끞	ggwp
+끟	ggwh
+끠	ggwi
+끡	ggwig
+끢	ggwigg
+끣	ggwigs
+끤	ggwin
+끥	ggwinj
+끦	ggwinh
+끧	ggwid
+끨	ggwil
+끩	ggwilg
+끪	ggwilm
+끫	ggwilb
+끬	ggwils
+끭	ggwilt
+끮	ggwilp
+끯	ggwilh
+끰	ggwim
+끱	ggwib
+끲	ggwibs
+끳	ggwis
+끴	ggwiss
+끵	ggwix
+끶	ggwij
+끷	ggwic
+끸	ggwik
+끹	ggwit
+끺	ggwip
+끻	ggwih
 끼	ggi	1000
 끽	ggig	1000
 끾	ggigg
@@ -1187,7 +1187,7 @@ import_tables:
 낎	ggibs
 낏	ggis	1000
 낐	ggiss
-낑	ggiq	1000
+낑	ggix	1000
 낒	ggij
 낓	ggic
 낔	ggik
@@ -1217,7 +1217,7 @@ import_tables:
 낪	nabs
 낫	nas	1000
 났	nass	1000
-낭	naq	1000
+낭	nax	1000
 낮	naj	1000
 낯	nac	1000
 낰	nak
@@ -1245,7 +1245,7 @@ import_tables:
 냆	naibs
 냇	nais	1000
 냈	naiss	1000
-냉	naiq	1000
+냉	naix	1000
 냊	naij
 냋	naic
 냌	naik
@@ -1273,7 +1273,7 @@ import_tables:
 냢	niabs
 냣	nias
 냤	niass
-냥	niaq	1000
+냥	niax	1000
 냦	niaj
 냧	niac
 냨	niak
@@ -1301,7 +1301,7 @@ import_tables:
 냾	niaibs
 냿	niais
 넀	niaiss
-넁	niaiq
+넁	niaix
 넂	niaij
 넃	niaic
 넄	niaik
@@ -1329,7 +1329,7 @@ import_tables:
 넚	nebs
 넛	nes	1000
 넜	ness	1000
-넝	neq	1000
+넝	nex	1000
 넞	nej
 넟	nec
 넠	nek
@@ -1357,7 +1357,7 @@ import_tables:
 넶	neibs
 넷	neis	1000
 넸	neiss	1000
-넹	neiq	1000
+넹	neix	1000
 넺	neij
 넻	neic
 넼	neik
@@ -1385,7 +1385,7 @@ import_tables:
 녒	niebs
 녓	nies
 녔	niess	1000
-녕	nieq	1000
+녕	niex	1000
 녖	niej
 녗	niec
 녘	niek	1000
@@ -1413,7 +1413,7 @@ import_tables:
 녮	nieibs
 녯	nieis
 녰	nieiss
-녱	nieiq
+녱	nieix
 녲	nieij
 녳	nieic
 녴	nieik
@@ -1441,7 +1441,7 @@ import_tables:
 놊	nobs
 놋	nos	1000
 놌	noss
-농	noq	1000
+농	nox	1000
 놎	noj
 놏	noc
 놐	nok
@@ -1469,7 +1469,7 @@ import_tables:
 놦	noabs
 놧	noas
 놨	noass	1000
-놩	noaq
+놩	noax
 놪	noaj
 놫	noac
 놬	noak
@@ -1497,7 +1497,7 @@ import_tables:
 뇂	noaibs
 뇃	noais
 뇄	noaiss
-뇅	noaiq
+뇅	noaix
 뇆	noaij
 뇇	noaic
 뇈	noaik
@@ -1525,7 +1525,7 @@ import_tables:
 뇞	noibs
 뇟	nois	1000
 뇠	noiss
-뇡	noiq
+뇡	noix
 뇢	noij
 뇣	noic
 뇤	noik
@@ -1553,7 +1553,7 @@ import_tables:
 뇺	niobs
 뇻	nios	1000
 뇼	nioss
-뇽	nioq	1000
+뇽	niox	1000
 뇾	nioj
 뇿	nioc
 눀	niok
@@ -1581,7 +1581,7 @@ import_tables:
 눖	nubs
 눗	nus	1000
 눘	nuss
-눙	nuq	1000
+눙	nux	1000
 눚	nuj
 눛	nuc
 눜	nuk
@@ -1609,7 +1609,7 @@ import_tables:
 눲	nuebs
 눳	nues
 눴	nuess	1000
-눵	nueq
+눵	nuex
 눶	nuej
 눷	nuec
 눸	nuek
@@ -1637,7 +1637,7 @@ import_tables:
 뉎	nueibs
 뉏	nueis
 뉐	nueiss
-뉑	nueiq
+뉑	nueix
 뉒	nueij
 뉓	nueic
 뉔	nueik
@@ -1665,7 +1665,7 @@ import_tables:
 뉪	nuibs
 뉫	nuis
 뉬	nuiss
-뉭	nuiq
+뉭	nuix
 뉮	nuij
 뉯	nuic
 뉰	nuik
@@ -1693,69 +1693,69 @@ import_tables:
 늆	niubs
 늇	nius
 늈	niuss
-늉	niuq	1000
+늉	niux	1000
 늊	niuj
 늋	niuc
 늌	niuk
 늍	niut
 늎	niup
 늏	niuh
-느	ny	1000
-늑	nyg	1000
-늒	nygg
-늓	nygs
-는	nyn	1000
-늕	nynj
-늖	nynh
-늗	nyd
-늘	nyl	1000
-늙	nylg	1000
-늚	nylm	1000
-늛	nylb
-늜	nyls
-늝	nylt
-늞	nylp
-늟	nylh
-늠	nym	1000
-늡	nyb	1000
-늢	nybs
-늣	nys	1000
-늤	nyss
-능	nyq	1000
-늦	nyj	1000
-늧	nyc
-늨	nyk
-늩	nyt
-늪	nyp	1000
-늫	nyh
-늬	nyi	1000
-늭	nyig
-늮	nyigg
-늯	nyigs
-늰	nyin	1000
-늱	nyinj
-늲	nyinh
-늳	nyid
-늴	nyil	1000
-늵	nyilg
-늶	nyilm
-늷	nyilb
-늸	nyils
-늹	nyilt
-늺	nyilp
-늻	nyilh
-늼	nyim
-늽	nyib
-늾	nyibs
-늿	nyis
-닀	nyiss
-닁	nyiq
-닂	nyij
-닃	nyic
-닄	nyik
-닅	nyit
-닆	nyip
-닇	nyih
+느	nw	1000
+늑	nwg	1000
+늒	nwgg
+늓	nwgs
+는	nwn	1000
+늕	nwnj
+늖	nwnh
+늗	nwd
+늘	nwl	1000
+늙	nwlg	1000
+늚	nwlm	1000
+늛	nwlb
+늜	nwls
+늝	nwlt
+늞	nwlp
+늟	nwlh
+늠	nwm	1000
+늡	nwb	1000
+늢	nwbs
+늣	nws	1000
+늤	nwss
+능	nwx	1000
+늦	nwj	1000
+늧	nwc
+늨	nwk
+늩	nwt
+늪	nwp	1000
+늫	nwh
+늬	nwi	1000
+늭	nwig
+늮	nwigg
+늯	nwigs
+늰	nwin	1000
+늱	nwinj
+늲	nwinh
+늳	nwid
+늴	nwil	1000
+늵	nwilg
+늶	nwilm
+늷	nwilb
+늸	nwils
+늹	nwilt
+늺	nwilp
+늻	nwilh
+늼	nwim
+늽	nwib
+늾	nwibs
+늿	nwis
+닀	nwiss
+닁	nwix
+닂	nwij
+닃	nwic
+닄	nwik
+닅	nwit
+닆	nwip
+닇	nwih
 니	ni	1000
 닉	nig	1000
 닊	nigg
@@ -1777,7 +1777,7 @@ import_tables:
 닚	nibs
 닛	nis	1000
 닜	niss
-닝	niq	1000
+닝	nix	1000
 닞	nij
 닟	nic
 닠	nik
@@ -1812,7 +1812,7 @@ import_tables:
 닶	dabs
 닷	das	1000
 닸	dass	1000
-당	daq	1000
+당	dax	1000
 닺	daj	1000
 닻	dac	1000
 닼	dak
@@ -1840,7 +1840,7 @@ import_tables:
 댒	daibs
 댓	dais	1000
 댔	daiss	1000
-댕	daiq	1000
+댕	daix	1000
 댖	daij
 댗	daic
 댘	daik
@@ -1868,7 +1868,7 @@ import_tables:
 댮	diabs
 댯	dias
 댰	diass
-댱	diaq
+댱	diax
 댲	diaj
 댳	diac
 댴	diak
@@ -1896,7 +1896,7 @@ import_tables:
 덊	diaibs
 덋	diais
 덌	diaiss
-덍	diaiq
+덍	diaix
 덎	diaij
 덏	diaic
 덐	diaik
@@ -1924,7 +1924,7 @@ import_tables:
 덦	debs
 덧	des	1000
 덨	dess
-덩	deq	1000
+덩	dex	1000
 덪	dej
 덫	dec	1000
 덬	dek
@@ -1952,7 +1952,7 @@ import_tables:
 뎂	deibs
 뎃	deis	1000
 뎄	deiss	1000
-뎅	deiq	1000
+뎅	deix	1000
 뎆	deij
 뎇	deic
 뎈	deik
@@ -1980,7 +1980,7 @@ import_tables:
 뎞	diebs
 뎟	dies
 뎠	diess	1000
-뎡	dieq	1000
+뎡	diex	1000
 뎢	diej
 뎣	diec
 뎤	diek
@@ -2008,7 +2008,7 @@ import_tables:
 뎺	dieibs
 뎻	dieis
 뎼	dieiss
-뎽	dieiq
+뎽	dieix
 뎾	dieij
 뎿	dieic
 돀	dieik
@@ -2036,7 +2036,7 @@ import_tables:
 돖	dobs
 돗	dos	1000
 돘	doss
-동	doq	1000
+동	dox	1000
 돚	doj
 돛	doc	1000
 돜	dok
@@ -2064,7 +2064,7 @@ import_tables:
 돲	doabs
 돳	doas
 돴	doass
-돵	doaq
+돵	doax
 돶	doaj
 돷	doac
 돸	doak
@@ -2092,7 +2092,7 @@ import_tables:
 됎	doaibs
 됏	doais
 됐	doaiss	1000
-됑	doaiq
+됑	doaix
 됒	doaij
 됓	doaic
 됔	doaik
@@ -2120,7 +2120,7 @@ import_tables:
 됪	doibs
 됫	dois	1000
 됬	doiss
-됭	doiq
+됭	doix
 됮	doij
 됯	doic
 됰	doik
@@ -2148,7 +2148,7 @@ import_tables:
 둆	diobs
 둇	dios
 둈	dioss
-둉	dioq
+둉	diox
 둊	dioj
 둋	dioc
 둌	diok
@@ -2176,7 +2176,7 @@ import_tables:
 둢	dubs
 둣	dus	1000
 둤	duss
-둥	duq	1000
+둥	dux	1000
 둦	duj
 둧	duc
 둨	duk
@@ -2204,7 +2204,7 @@ import_tables:
 둾	duebs
 둿	dues
 뒀	duess	1000
-뒁	dueq
+뒁	duex
 뒂	duej
 뒃	duec
 뒄	duek
@@ -2232,7 +2232,7 @@ import_tables:
 뒚	dueibs
 뒛	dueis
 뒜	dueiss
-뒝	dueiq	1000
+뒝	dueix	1000
 뒞	dueij
 뒟	dueic
 뒠	dueik
@@ -2260,7 +2260,7 @@ import_tables:
 뒶	duibs
 뒷	duis	1000
 뒸	duiss
-뒹	duiq	1000
+뒹	duix	1000
 뒺	duij
 뒻	duic
 뒼	duik
@@ -2288,69 +2288,69 @@ import_tables:
 듒	diubs
 듓	dius
 듔	diuss
-듕	diuq	1000
+듕	diux	1000
 듖	diuj
 듗	diuc
 듘	diuk
 듙	diut
 듚	diup
 듛	diuh
-드	dy	1000
-득	dyg	1000
-듞	dygg
-듟	dygs
-든	dyn	1000
-듡	dynj
-듢	dynh
-듣	dyd	1000
-들	dyl	1000
-듥	dylg
-듦	dylm	1000
-듧	dylb
-듨	dyls
-듩	dylt
-듪	dylp
-듫	dylh
-듬	dym	1000
-듭	dyb	1000
-듮	dybs
-듯	dys	1000
-듰	dyss
-등	dyq	1000
-듲	dyj
-듳	dyc
-듴	dyk
-듵	dyt
-듶	dyp
-듷	dyh
-듸	dyi	1000
-듹	dyig
-듺	dyigg
-듻	dyigs
-듼	dyin
-듽	dyinj
-듾	dyinh
-듿	dyid
-딀	dyil
-딁	dyilg
-딂	dyilm
-딃	dyilb
-딄	dyils
-딅	dyilt
-딆	dyilp
-딇	dyilh
-딈	dyim
-딉	dyib
-딊	dyibs
-딋	dyis
-딌	dyiss
-딍	dyiq
-딎	dyij
-딏	dyic
-딐	dyik
-딑	dyit
-딒	dyip
-딓	dyih
+드	dw	1000
+득	dwg	1000
+듞	dwgg
+듟	dwgs
+든	dwn	1000
+듡	dwnj
+듢	dwnh
+듣	dwd	1000
+들	dwl	1000
+듥	dwlg
+듦	dwlm	1000
+듧	dwlb
+듨	dwls
+듩	dwlt
+듪	dwlp
+듫	dwlh
+듬	dwm	1000
+듭	dwb	1000
+듮	dwbs
+듯	dws	1000
+듰	dwss
+등	dwx	1000
+듲	dwj
+듳	dwc
+듴	dwk
+듵	dwt
+듶	dwp
+듷	dwh
+듸	dwi	1000
+듹	dwig
+듺	dwigg
+듻	dwigs
+듼	dwin
+듽	dwinj
+듾	dwinh
+듿	dwid
+딀	dwil
+딁	dwilg
+딂	dwilm
+딃	dwilb
+딄	dwils
+딅	dwilt
+딆	dwilp
+딇	dwilh
+딈	dwim
+딉	dwib
+딊	dwibs
+딋	dwis
+딌	dwiss
+딍	dwix
+딎	dwij
+딏	dwic
+딐	dwik
+딑	dwit
+딒	dwip
+딓	dwih
 디	di	1000
 딕	dig	1000
 딖	digg
@@ -2372,7 +2372,7 @@ import_tables:
 딦	dibs
 딧	dis	1000
 딨	diss	1000
-딩	diq	1000
+딩	dix	1000
 딪	dij	1000
 딫	dic
 딬	dik
@@ -2401,7 +2401,7 @@ import_tables:
 땂	ddabs
 땃	ddas	1000
 땄	ddass	1000
-땅	ddaq	1000
+땅	ddax	1000
 땆	ddaj
 땇	ddac
 땈	ddak
@@ -2429,7 +2429,7 @@ import_tables:
 땞	ddaibs
 땟	ddais	1000
 땠	ddaiss	1000
-땡	ddaiq	1000
+땡	ddaix	1000
 땢	ddaij
 땣	ddaic
 땤	ddaik
@@ -2457,7 +2457,7 @@ import_tables:
 땺	ddiabs
 땻	ddias
 땼	ddiass
-땽	ddiaq
+땽	ddiax
 땾	ddiaj
 땿	ddiac
 떀	ddiak
@@ -2485,7 +2485,7 @@ import_tables:
 떖	ddiaibs
 떗	ddiais
 떘	ddiaiss
-떙	ddiaiq
+떙	ddiaix
 떚	ddiaij
 떛	ddiaic
 떜	ddiaik
@@ -2513,7 +2513,7 @@ import_tables:
 떲	ddebs
 떳	ddes	1000
 떴	ddess	1000
-떵	ddeq	1000
+떵	ddex	1000
 떶	ddej
 떷	ddec
 떸	ddek
@@ -2541,7 +2541,7 @@ import_tables:
 뗎	ddeibs
 뗏	ddeis	1000
 뗐	ddeiss	1000
-뗑	ddeiq	1000
+뗑	ddeix	1000
 뗒	ddeij
 뗓	ddeic
 뗔	ddeik
@@ -2569,7 +2569,7 @@ import_tables:
 뗪	ddiebs
 뗫	ddies
 뗬	ddiess	1000
-뗭	ddieq
+뗭	ddiex
 뗮	ddiej
 뗯	ddiec
 뗰	ddiek
@@ -2597,7 +2597,7 @@ import_tables:
 똆	ddieibs
 똇	ddieis
 똈	ddieiss
-똉	ddieiq
+똉	ddieix
 똊	ddieij
 똋	ddieic
 똌	ddieik
@@ -2625,7 +2625,7 @@ import_tables:
 똢	ddobs
 똣	ddos
 똤	ddoss
-똥	ddoq	1000
+똥	ddox	1000
 똦	ddoj
 똧	ddoc
 똨	ddok
@@ -2653,7 +2653,7 @@ import_tables:
 똾	ddoabs
 똿	ddoas
 뙀	ddoass
-뙁	ddoaq
+뙁	ddoax
 뙂	ddoaj
 뙃	ddoac
 뙄	ddoak
@@ -2681,7 +2681,7 @@ import_tables:
 뙚	ddoaibs
 뙛	ddoais
 뙜	ddoaiss
-뙝	ddoaiq
+뙝	ddoaix
 뙞	ddoaij
 뙟	ddoaic
 뙠	ddoaik
@@ -2709,7 +2709,7 @@ import_tables:
 뙶	ddoibs
 뙷	ddois
 뙸	ddoiss
-뙹	ddoiq
+뙹	ddoix
 뙺	ddoij
 뙻	ddoic
 뙼	ddoik
@@ -2737,7 +2737,7 @@ import_tables:
 뚒	ddiobs
 뚓	ddios
 뚔	ddioss
-뚕	ddioq
+뚕	ddiox
 뚖	ddioj
 뚗	ddioc
 뚘	ddiok
@@ -2765,7 +2765,7 @@ import_tables:
 뚮	ddubs
 뚯	ddus
 뚰	dduss
-뚱	dduq	1000
+뚱	ddux	1000
 뚲	dduj
 뚳	dduc
 뚴	dduk
@@ -2793,7 +2793,7 @@ import_tables:
 뛊	dduebs
 뛋	ddues
 뛌	dduess
-뛍	ddueq
+뛍	dduex
 뛎	dduej
 뛏	dduec
 뛐	dduek
@@ -2821,7 +2821,7 @@ import_tables:
 뛦	ddueibs
 뛧	ddueis
 뛨	ddueiss
-뛩	ddueiq
+뛩	ddueix
 뛪	ddueij
 뛫	ddueic
 뛬	ddueik
@@ -2849,7 +2849,7 @@ import_tables:
 뜂	dduibs
 뜃	dduis
 뜄	dduiss
-뜅	dduiq	1000
+뜅	dduix	1000
 뜆	dduij
 뜇	dduic
 뜈	dduik
@@ -2877,69 +2877,69 @@ import_tables:
 뜞	ddiubs
 뜟	ddius
 뜠	ddiuss
-뜡	ddiuq
+뜡	ddiux
 뜢	ddiuj
 뜣	ddiuc
 뜤	ddiuk
 뜥	ddiut
 뜦	ddiup
 뜧	ddiuh
-뜨	ddy	1000
-뜩	ddyg	1000
-뜪	ddygg
-뜫	ddygs
-뜬	ddyn	1000
-뜭	ddynj
-뜮	ddynh
-뜯	ddyd	1000
-뜰	ddyl	1000
-뜱	ddylg
-뜲	ddylm
-뜳	ddylb
-뜴	ddyls
-뜵	ddylt
-뜶	ddylp
-뜷	ddylh
-뜸	ddym	1000
-뜹	ddyb	1000
-뜺	ddybs
-뜻	ddys	1000
-뜼	ddyss
-뜽	ddyq
-뜾	ddyj
-뜿	ddyc
-띀	ddyk
-띁	ddyt
-띂	ddyp
-띃	ddyh
-띄	ddyi	1000
-띅	ddyig
-띆	ddyigg
-띇	ddyigs
-띈	ddyin	1000
-띉	ddyinj
-띊	ddyinh
-띋	ddyid
-띌	ddyil	1000
-띍	ddyilg
-띎	ddyilm
-띏	ddyilb
-띐	ddyils
-띑	ddyilt
-띒	ddyilp
-띓	ddyilh
-띔	ddyim	1000
-띕	ddyib	1000
-띖	ddyibs
-띗	ddyis
-띘	ddyiss
-띙	ddyiq
-띚	ddyij
-띛	ddyic
-띜	ddyik
-띝	ddyit
-띞	ddyip
-띟	ddyih
+뜨	ddw	1000
+뜩	ddwg	1000
+뜪	ddwgg
+뜫	ddwgs
+뜬	ddwn	1000
+뜭	ddwnj
+뜮	ddwnh
+뜯	ddwd	1000
+뜰	ddwl	1000
+뜱	ddwlg
+뜲	ddwlm
+뜳	ddwlb
+뜴	ddwls
+뜵	ddwlt
+뜶	ddwlp
+뜷	ddwlh
+뜸	ddwm	1000
+뜹	ddwb	1000
+뜺	ddwbs
+뜻	ddws	1000
+뜼	ddwss
+뜽	ddwx
+뜾	ddwj
+뜿	ddwc
+띀	ddwk
+띁	ddwt
+띂	ddwp
+띃	ddwh
+띄	ddwi	1000
+띅	ddwig
+띆	ddwigg
+띇	ddwigs
+띈	ddwin	1000
+띉	ddwinj
+띊	ddwinh
+띋	ddwid
+띌	ddwil	1000
+띍	ddwilg
+띎	ddwilm
+띏	ddwilb
+띐	ddwils
+띑	ddwilt
+띒	ddwilp
+띓	ddwilh
+띔	ddwim	1000
+띕	ddwib	1000
+띖	ddwibs
+띗	ddwis
+띘	ddwiss
+띙	ddwix
+띚	ddwij
+띛	ddwic
+띜	ddwik
+띝	ddwit
+띞	ddwip
+띟	ddwih
 띠	ddi	1000
 띡	ddig
 띢	ddigg
@@ -2961,7 +2961,7 @@ import_tables:
 띲	ddibs
 띳	ddis	1000
 띴	ddiss
-띵	ddiq	1000
+띵	ddix	1000
 띶	ddij
 띷	ddic
 띸	ddik
@@ -2990,7 +2990,7 @@ import_tables:
 랎	labs
 랏	las	1000
 랐	lass	1000
-랑	laq	1000
+랑	lax	1000
 랒	laj	1000
 랓	lac
 랔	lak
@@ -3018,7 +3018,7 @@ import_tables:
 랪	laibs
 랫	lais	1000
 랬	laiss	1000
-랭	laiq	1000
+랭	laix	1000
 랮	laij
 랯	laic
 랰	laik
@@ -3046,7 +3046,7 @@ import_tables:
 럆	liabs
 럇	lias	1000
 럈	liass
-량	liaq	1000
+량	liax	1000
 럊	liaj
 럋	liac
 럌	liak
@@ -3074,7 +3074,7 @@ import_tables:
 럢	liaibs
 럣	liais
 럤	liaiss
-럥	liaiq
+럥	liaix
 럦	liaij
 럧	liaic
 럨	liaik
@@ -3102,7 +3102,7 @@ import_tables:
 럾	lebs
 럿	les	1000
 렀	less	1000
-렁	leq	1000
+렁	lex	1000
 렂	lej
 렃	lec
 렄	lek
@@ -3130,7 +3130,7 @@ import_tables:
 렚	leibs
 렛	leis	1000
 렜	leiss
-렝	leiq	1000
+렝	leix	1000
 렞	leij
 렟	leic
 렠	leik
@@ -3158,7 +3158,7 @@ import_tables:
 렶	liebs
 렷	lies	1000
 렸	liess	1000
-령	lieq	1000
+령	liex	1000
 렺	liej
 렻	liec
 렼	like
@@ -3186,7 +3186,7 @@ import_tables:
 롒	lieibs
 롓	lieis	1000
 롔	lieiss
-롕	lieiq
+롕	lieix
 롖	lieij
 롗	lieic
 롘	lieik
@@ -3214,7 +3214,7 @@ import_tables:
 롮	lobs
 롯	los	1000
 롰	loss
-롱	loq	1000
+롱	lox	1000
 롲	loj
 롳	loc
 롴	lok
@@ -3242,7 +3242,7 @@ import_tables:
 뢊	loabs
 뢋	loas
 뢌	loass
-뢍	loaq	1000
+뢍	loax	1000
 뢎	loaj
 뢏	loac
 뢐	loak
@@ -3270,7 +3270,7 @@ import_tables:
 뢦	loaibs
 뢧	loais
 뢨	loaiss	1000
-뢩	loaiq
+뢩	loaix
 뢪	loaij
 뢫	loaic
 뢬	loaik
@@ -3298,7 +3298,7 @@ import_tables:
 룂	loibs
 룃	lois	1000
 룄	loiss
-룅	loiq	1000
+룅	loix	1000
 룆	loij
 룇	loic
 룈	loik
@@ -3326,7 +3326,7 @@ import_tables:
 룞	liobs
 룟	lios	1000
 룠	lioss
-룡	lioq	1000
+룡	liox	1000
 룢	lioj
 룣	lioc
 룤	liok
@@ -3354,7 +3354,7 @@ import_tables:
 룺	lubs
 룻	lus	1000
 룼	luss
-룽	luq	1000
+룽	lux	1000
 룾	luj
 룿	luc
 뤀	luk
@@ -3382,7 +3382,7 @@ import_tables:
 뤖	luebs
 뤗	lues
 뤘	luess	1000
-뤙	lueq
+뤙	luex
 뤚	luej
 뤛	luec
 뤜	luek
@@ -3410,7 +3410,7 @@ import_tables:
 뤲	lueibs
 뤳	lueis
 뤴	lueiss
-뤵	lueiq
+뤵	lueix
 뤶	lueij
 뤷	lueic
 뤸	lueik
@@ -3438,7 +3438,7 @@ import_tables:
 륎	luibs
 륏	luis	1000
 륐	luiss
-륑	luiq	1000
+륑	luix	1000
 륒	luij
 륓	luic
 륔	luik
@@ -3466,69 +3466,69 @@ import_tables:
 륪	liubs
 륫	lius	1000
 륬	liuss
-륭	liuq	1000
+륭	liux	1000
 륮	liuj
 륯	liuc
 륰	liuk
 륱	liut
 륲	liup
 륳	liuh
-르	ly	1000
-륵	lyg	1000
-륶	lygg
-륷	lygs
-른	lyn	1000
-륹	lynj
-륺	lynh
-륻	lyd
-를	lyl	1000
-륽	lylg
-륾	lylm
-륿	lylb
-릀	lyls
-릁	lylt
-릂	lylp
-릃	lylh
-름	lym	1000
-릅	lyb	1000
-릆	lybs
-릇	lys	1000
-릈	lyss
-릉	lyq	1000
-릊	lyj	1000
-릋	lyc
-릌	lyk
-릍	lyt	1000
-릎	lyp	1000
-릏	lyh
-릐	lyi
-릑	lyig
-릒	lyigg
-릓	lyigs
-릔	lyin
-릕	lyinj
-릖	lyinh
-릗	lyid
-릘	lyil
-릙	lyilg
-릚	lyilm
-릛	lyilb
-릜	lyils
-릝	lyilt
-릞	lyilp
-릟	lyilh
-릠	lyim
-릡	lyib
-릢	lyibs
-릣	lyis
-릤	lyiss
-릥	lyiq
-릦	lyij
-릧	lyic
-릨	lyik
-릩	lyit
-릪	lyip
-릫	lyih
+르	lw	1000
+륵	lwg	1000
+륶	lwgg
+륷	lwgs
+른	lwn	1000
+륹	lwnj
+륺	lwnh
+륻	lwd
+를	lwl	1000
+륽	lwlg
+륾	lwlm
+륿	lwlb
+릀	lwls
+릁	lwlt
+릂	lwlp
+릃	lwlh
+름	lwm	1000
+릅	lwb	1000
+릆	lwbs
+릇	lws	1000
+릈	lwss
+릉	lwx	1000
+릊	lwj	1000
+릋	lwc
+릌	lwk
+릍	lwt	1000
+릎	lwp	1000
+릏	lwh
+릐	lwi
+릑	lwig
+릒	lwigg
+릓	lwigs
+릔	lwin
+릕	lwinj
+릖	lwinh
+릗	lwid
+릘	lwil
+릙	lwilg
+릚	lwilm
+릛	lwilb
+릜	lwils
+릝	lwilt
+릞	lwilp
+릟	lwilh
+릠	lwim
+릡	lwib
+릢	lwibs
+릣	lwis
+릤	lwiss
+릥	lwix
+릦	lwij
+릧	lwic
+릨	lwik
+릩	lwit
+릪	lwip
+릫	lwih
 리	li	1000
 릭	lig	1000
 릮	ligg
@@ -3550,7 +3550,7 @@ import_tables:
 릾	libs
 릿	lis	1000
 맀	liss
-링	liq	1000
+링	lix	1000
 맂	lij
 맃	lic
 맄	lik
@@ -3569,7 +3569,7 @@ import_tables:
 ㄿ	lp	0%
 ㅀ	lh	0%
 ㅭ	lh	0%
-ᄛ	lq	0%
+ᄛ	lx	0%
 ㅁ	m	0%
 마	ma	1000
 막	mag	1000
@@ -3592,7 +3592,7 @@ import_tables:
 맚	mabs
 맛	mas	1000
 맜	mass
-망	maq	1000
+망	max	1000
 맞	maj	1000
 맟	mac
 맠	mak
@@ -3620,7 +3620,7 @@ import_tables:
 맶	maibs
 맷	mais	1000
 맸	maiss	1000
-맹	maiq	1000
+맹	maix	1000
 맺	maij	1000
 맻	maic
 맼	maik
@@ -3648,7 +3648,7 @@ import_tables:
 먒	miabs
 먓	mias
 먔	miass
-먕	miaq	1000
+먕	miax	1000
 먖	miaj
 먗	miac
 먘	miak
@@ -3676,7 +3676,7 @@ import_tables:
 먮	miaibs
 먯	miais
 먰	miaiss
-먱	miaiq
+먱	miaix
 먲	miaij
 먳	miaic
 먴	miaik
@@ -3704,7 +3704,7 @@ import_tables:
 멊	mebs
 멋	mes	1000
 멌	mess
-멍	meq	1000
+멍	mex	1000
 멎	mej	1000
 멏	mec
 멐	mek
@@ -3732,7 +3732,7 @@ import_tables:
 멦	meibs
 멧	meis	1000
 멨	meiss	1000
-멩	meiq	1000
+멩	meix	1000
 멪	meij
 멫	meic
 멬	meik
@@ -3760,7 +3760,7 @@ import_tables:
 몂	miebs
 몃	mies	1000
 몄	miess	1000
-명	mieq	1000
+명	miex	1000
 몆	miej
 몇	miec	1000
 몈	miek
@@ -3788,7 +3788,7 @@ import_tables:
 몞	mieibs
 몟	mieis
 몠	mieiss
-몡	mieiq
+몡	mieix
 몢	mieij
 몣	mieic
 몤	mieik
@@ -3816,7 +3816,7 @@ import_tables:
 몺	mobs
 못	mos	1000
 몼	moss
-몽	moq	1000
+몽	mox	1000
 몾	moj
 몿	moc
 뫀	mok
@@ -3844,7 +3844,7 @@ import_tables:
 뫖	moabs
 뫗	moas
 뫘	moass	1000
-뫙	moaq	1000
+뫙	moax	1000
 뫚	moaj
 뫛	moac
 뫜	moak
@@ -3872,7 +3872,7 @@ import_tables:
 뫲	moaibs
 뫳	moais
 뫴	moaiss
-뫵	moaiq
+뫵	moaix
 뫶	moaij
 뫷	moaic
 뫸	moaik
@@ -3900,7 +3900,7 @@ import_tables:
 묎	moibs
 묏	mois	1000
 묐	moiss
-묑	moiq	1000
+묑	moix	1000
 묒	moij
 묓	moic
 묔	moik
@@ -3928,7 +3928,7 @@ import_tables:
 묪	miobs
 묫	mios	1000
 묬	mioss
-묭	mioq
+묭	miox
 묮	mioj
 묯	mioc
 묰	miok
@@ -3956,7 +3956,7 @@ import_tables:
 뭆	mubs
 뭇	mus	1000
 뭈	muss
-뭉	muq	1000
+뭉	mux	1000
 뭊	muj
 뭋	muc
 뭌	muk
@@ -3984,7 +3984,7 @@ import_tables:
 뭢	muebs
 뭣	mues	1000
 뭤	muess
-뭥	mueq
+뭥	muex
 뭦	muej
 뭧	muec
 뭨	muek
@@ -4012,7 +4012,7 @@ import_tables:
 뭾	mueibs
 뭿	mueis
 뮀	mueiss
-뮁	mueiq
+뮁	mueix
 뮂	mueij
 뮃	mueic
 뮄	mueik
@@ -4040,7 +4040,7 @@ import_tables:
 뮚	muibs
 뮛	muis
 뮜	muiss
-뮝	muiq
+뮝	muix
 뮞	muij
 뮟	muic
 뮠	muik
@@ -4068,69 +4068,69 @@ import_tables:
 뮶	miubs
 뮷	mius	1000
 뮸	miuss
-뮹	miuq
+뮹	miux
 뮺	miuj
 뮻	miuc
 뮼	miuk
 뮽	miut
 뮾	miup
 뮿	miuh
-므	my	1000
-믁	myg
-믂	mygg
-믃	mygs
-믄	myn	1000
-믅	mynj
-믆	mynh
-믇	myd
-믈	myl	1000
-믉	mylg
-믊	mylm
-믋	mylb
-믌	myls
-믍	mylt
-믎	mylp
-믏	mylh
-믐	mym	1000
-믑	myb
-믒	mybs
-믓	mys	1000
-믔	myss
-믕	myq
-믖	myj
-믗	myc
-믘	myk
-믙	myt
-믚	myp
-믛	myh
-믜	myi
-믝	myig
-믞	myigg
-믟	myigs
-믠	myin
-믡	myinj
-믢	myinh
-믣	myid
-믤	myil
-믥	myilg
-믦	myilm
-믧	myilb
-믨	myils
-믩	myilt
-믪	myilp
-믫	myilh
-믬	myim
-믭	myib
-믮	myibs
-믯	myis
-믰	myiss
-믱	myiq
-믲	myij
-믳	myic
-믴	myik
-믵	myit
-믶	myip
-믷	myih
+므	mw	1000
+믁	mwg
+믂	mwgg
+믃	mwgs
+믄	mwn	1000
+믅	mwnj
+믆	mwnh
+믇	mwd
+믈	mwl	1000
+믉	mwlg
+믊	mwlm
+믋	mwlb
+믌	mwls
+믍	mwlt
+믎	mwlp
+믏	mwlh
+믐	mwm	1000
+믑	mwb
+믒	mwbs
+믓	mws	1000
+믔	mwss
+믕	mwx
+믖	mwj
+믗	mwc
+믘	mwk
+믙	mwt
+믚	mwp
+믛	mwh
+믜	mwi
+믝	mwig
+믞	mwigg
+믟	mwigs
+믠	mwin
+믡	mwinj
+믢	mwinh
+믣	mwid
+믤	mwil
+믥	mwilg
+믦	mwilm
+믧	mwilb
+믨	mwils
+믩	mwilt
+믪	mwilp
+믫	mwilh
+믬	mwim
+믭	mwib
+믮	mwibs
+믯	mwis
+믰	mwiss
+믱	mwix
+믲	mwij
+믳	mwic
+믴	mwik
+믵	mwit
+믶	mwip
+믷	mwih
 미	mi	1000
 믹	mig	1000
 믺	migg
@@ -4152,7 +4152,7 @@ import_tables:
 밊	mibs
 밋	mis	1000
 밌	miss	1000
-밍	miq	1000
+밍	mix	1000
 밎	mij
 및	mic	1000
 밐	mik
@@ -4162,7 +4162,7 @@ import_tables:
 ㅮ	mb	0%
 ㅯ	ms	0%
 ㅰ	mz	0%
-ㅱ	mq	0%
+ㅱ	mx	0%
 ㅂ	b	0%
 바	ba	1000
 박	bag	1000
@@ -4185,7 +4185,7 @@ import_tables:
 밦	babs
 밧	bas	1000
 밨	bass
-방	baq	1000
+방	bax	1000
 밪	baj
 밫	bac
 밬	bak
@@ -4213,7 +4213,7 @@ import_tables:
 뱂	baibs
 뱃	bais	1000
 뱄	baiss	1000
-뱅	baiq	1000
+뱅	baix	1000
 뱆	baij
 뱇	baic
 뱈	baik
@@ -4241,7 +4241,7 @@ import_tables:
 뱞	biabs
 뱟	bias
 뱠	biass
-뱡	biaq
+뱡	biax
 뱢	biaj
 뱣	biac
 뱤	biak
@@ -4269,7 +4269,7 @@ import_tables:
 뱺	biaibs
 뱻	biais
 뱼	biaiss
-뱽	biaiq
+뱽	biaix
 뱾	biaij
 뱿	biaic
 벀	biaik
@@ -4297,7 +4297,7 @@ import_tables:
 벖	bebs
 벗	bes	1000
 벘	bess
-벙	beq	1000
+벙	bex	1000
 벚	bej	1000
 벛	bec
 벜	bek
@@ -4325,7 +4325,7 @@ import_tables:
 벲	beibs
 벳	beis	1000
 벴	beiss	1000
-벵	beiq	1000
+벵	beix	1000
 벶	beij
 벷	beic
 벸	beik
@@ -4353,7 +4353,7 @@ import_tables:
 볎	biebs
 볏	bies	1000
 볐	biess	1000
-병	bieq	1000
+병	biex	1000
 볒	biej
 볓	biec
 볔	biek
@@ -4381,7 +4381,7 @@ import_tables:
 볪	bieibs
 볫	bieis
 볬	bieiss
-볭	bieiq
+볭	bieix
 볮	bieij
 볯	bieic
 볰	bieik
@@ -4409,7 +4409,7 @@ import_tables:
 봆	bobs
 봇	bos	1000
 봈	boss
-봉	boq	1000
+봉	box	1000
 봊	boj
 봋	boc
 봌	bok
@@ -4437,7 +4437,7 @@ import_tables:
 봢	boabs
 봣	boas
 봤	boass	1000
-봥	boaq
+봥	boax
 봦	boaj
 봧	boac
 봨	boak
@@ -4465,7 +4465,7 @@ import_tables:
 봾	boaibs
 봿	boais
 뵀	boaiss	1000
-뵁	boaiq
+뵁	boaix
 뵂	boaij
 뵃	boaic
 뵄	boaik
@@ -4493,7 +4493,7 @@ import_tables:
 뵚	boibs
 뵛	bois
 뵜	boiss
-뵝	boiq
+뵝	boix
 뵞	boij
 뵟	boic
 뵠	boik
@@ -4521,7 +4521,7 @@ import_tables:
 뵶	biobs
 뵷	bios
 뵸	bioss
-뵹	bioq
+뵹	biox
 뵺	bioj
 뵻	bioc
 뵼	biok
@@ -4549,7 +4549,7 @@ import_tables:
 붒	bubs
 붓	bus	1000
 붔	buss
-붕	buq	1000
+붕	bux	1000
 붖	buj
 붗	buc
 붘	buk
@@ -4577,7 +4577,7 @@ import_tables:
 붮	buebs
 붯	bues
 붰	buess	1000
-붱	bueq
+붱	buex
 붲	buej
 붳	buec
 붴	buek
@@ -4605,7 +4605,7 @@ import_tables:
 뷊	bueibs
 뷋	bueis
 뷌	bueiss
-뷍	bueiq
+뷍	bueix
 뷎	bueij
 뷏	bueic
 뷐	bueik
@@ -4633,7 +4633,7 @@ import_tables:
 뷦	buibs
 뷧	buis
 뷨	buiss
-뷩	buiq	1000
+뷩	buix	1000
 뷪	buij
 뷫	buic
 뷬	buik
@@ -4661,69 +4661,69 @@ import_tables:
 븂	biubs
 븃	bius	1000
 븄	biuss
-븅	biuq	1000
+븅	biux	1000
 븆	biuj
 븇	biuc
 븈	biuk
 븉	biut
 븊	biup
 븋	biuh
-브	by	1000
-븍	byg	1000
-븎	bygg
-븏	bygs
-븐	byn	1000
-븑	bynj
-븒	bynh
-븓	byd
-블	byl	1000
-븕	bylg
-븖	bylm
-븗	bylb
-븘	byls
-븙	bylt
-븚	bylp
-븛	bylh
-븜	bym	1000
-븝	byb	1000
-븞	bybs
-븟	bys	1000
-븠	byss
-븡	byq
-븢	byj
-븣	byc
-븤	byk
-븥	byt
-븦	byp
-븧	byh
-븨	byi
-븩	byig
-븪	byigg
-븫	byigs
-븬	byin
-븭	byinj
-븮	byinh
-븯	byid
-븰	byil
-븱	byilg
-븲	byilm
-븳	byilb
-븴	byils
-븵	byilt
-븶	byilp
-븷	byilh
-븸	byim
-븹	byib
-븺	byibs
-븻	byis
-븼	byiss
-븽	byiq
-븾	byij
-븿	byic
-빀	byik
-빁	byit
-빂	byip
-빃	byih
+브	bw	1000
+븍	bwg	1000
+븎	bwgg
+븏	bwgs
+븐	bwn	1000
+븑	bwnj
+븒	bwnh
+븓	bwd
+블	bwl	1000
+븕	bwlg
+븖	bwlm
+븗	bwlb
+븘	bwls
+븙	bwlt
+븚	bwlp
+븛	bwlh
+븜	bwm	1000
+븝	bwb	1000
+븞	bwbs
+븟	bws	1000
+븠	bwss
+븡	bwx
+븢	bwj
+븣	bwc
+븤	bwk
+븥	bwt
+븦	bwp
+븧	bwh
+븨	bwi
+븩	bwig
+븪	bwigg
+븫	bwigs
+븬	bwin
+븭	bwinj
+븮	bwinh
+븯	bwid
+븰	bwil
+븱	bwilg
+븲	bwilm
+븳	bwilb
+븴	bwils
+븵	bwilt
+븶	bwilp
+븷	bwilh
+븸	bwim
+븹	bwib
+븺	bwibs
+븻	bwis
+븼	bwiss
+븽	bwix
+븾	bwij
+븿	bwic
+빀	bwik
+빁	bwit
+빂	bwip
+빃	bwih
 비	bi	1000
 빅	big	1000
 빆	bigg
@@ -4745,7 +4745,7 @@ import_tables:
 빖	bibs
 빗	bis	1000
 빘	biss
-빙	biq	1000
+빙	bix	1000
 빚	bij	1000
 빛	bic	1000
 빜	bik
@@ -4776,7 +4776,7 @@ import_tables:
 빲	bbabs
 빳	bbas	1000
 빴	bbass	1000
-빵	bbaq	1000
+빵	bbax	1000
 빶	bbaj
 빷	bbac
 빸	bbak
@@ -4804,7 +4804,7 @@ import_tables:
 뺎	bbaibs
 뺏	bbais	1000
 뺐	bbaiss	1000
-뺑	bbaiq	1000
+뺑	bbaix	1000
 뺒	bbaij
 뺓	bbaic
 뺔	bbaik
@@ -4832,7 +4832,7 @@ import_tables:
 뺪	bbiabs
 뺫	bbias
 뺬	bbiass
-뺭	bbiaq
+뺭	bbiax
 뺮	bbiaj
 뺯	bbiac
 뺰	bbiak
@@ -4860,7 +4860,7 @@ import_tables:
 뻆	bbiaibs
 뻇	bbiais
 뻈	bbiaiss
-뻉	bbiaiq
+뻉	bbiaix
 뻊	bbiaij
 뻋	bbiaic
 뻌	bbiaik
@@ -4888,7 +4888,7 @@ import_tables:
 뻢	bbebs
 뻣	bbes	1000
 뻤	bbess	1000
-뻥	bbeq	1000
+뻥	bbex	1000
 뻦	bbej
 뻧	bbec
 뻨	bbek
@@ -4916,7 +4916,7 @@ import_tables:
 뻾	bbeibs
 뻿	bbeis
 뼀	bbeiss
-뼁	bbeiq	1000
+뼁	bbeix	1000
 뼂	bbeij
 뼃	bbeic
 뼄	bbeik
@@ -4944,7 +4944,7 @@ import_tables:
 뼚	bbiebs
 뼛	bbies	1000
 뼜	bbiess	1000
-뼝	bbieq	1000
+뼝	bbiex	1000
 뼞	bbiej
 뼟	bbiec
 뼠	bbiek
@@ -4972,7 +4972,7 @@ import_tables:
 뼶	bbieibs
 뼷	bbieis
 뼸	bbieiss
-뼹	bbieiq
+뼹	bbieix
 뼺	bbieij
 뼻	bbieic
 뼼	bbieik
@@ -5000,7 +5000,7 @@ import_tables:
 뽒	bbobs
 뽓	bbos
 뽔	bboss
-뽕	bboq	1000
+뽕	bbox	1000
 뽖	bboj
 뽗	bboc
 뽘	bbok
@@ -5028,7 +5028,7 @@ import_tables:
 뽮	bboalbs
 뽯	bboas
 뽰	bboass
-뽱	bboaq
+뽱	bboax
 뽲	bboaj
 뽳	bboac
 뽴	bboak
@@ -5056,7 +5056,7 @@ import_tables:
 뾊	bboaibs
 뾋	bboais
 뾌	bboaiss
-뾍	bboaiq
+뾍	bboaix
 뾎	bboaij
 뾏	bboaic
 뾐	bboaik
@@ -5084,7 +5084,7 @@ import_tables:
 뾦	bboibs
 뾧	bbois
 뾨	bboiss
-뾩	bboiq
+뾩	bboix
 뾪	bboij
 뾫	bboic
 뾬	bboik
@@ -5112,7 +5112,7 @@ import_tables:
 뿂	bbiobs
 뿃	bbios
 뿄	bbioss
-뿅	bbioq	1000
+뿅	bbiox	1000
 뿆	bbioj
 뿇	bbioc
 뿈	bbiok
@@ -5140,7 +5140,7 @@ import_tables:
 뿞	bbubs
 뿟	bbus	1000
 뿠	bbuss
-뿡	bbuq	1000
+뿡	bbux	1000
 뿢	bbuj
 뿣	bbuc
 뿤	bbuk
@@ -5168,7 +5168,7 @@ import_tables:
 뿺	bbuebs
 뿻	bbues
 뿼	bbuess
-뿽	bbueq
+뿽	bbuex
 뿾	bbuej
 뿿	bbuec
 쀀	bbuek
@@ -5196,7 +5196,7 @@ import_tables:
 쀖	bbueibs
 쀗	bbueis
 쀘	bbueiss
-쀙	bbueiq
+쀙	bbueix
 쀚	bbueij
 쀛	bbueic
 쀜	bbueik
@@ -5224,7 +5224,7 @@ import_tables:
 쀲	bbuibs
 쀳	bbuis
 쀴	bbuiss
-쀵	bbuiq
+쀵	bbuix
 쀶	bbuij
 쀷	bbbuic
 쀸	bbuik
@@ -5252,69 +5252,69 @@ import_tables:
 쁎	bbiubs
 쁏	bbius
 쁐	bbiuss
-쁑	bbiuq	1000
+쁑	bbiux	1000
 쁒	bbiuj
 쁓	bbiuc
 쁔	bbiuk
 쁕	bbiut
 쁖	bbiup
 쁗	bbiuh
-쁘	bby	1000
-쁙	bbyg
-쁚	bbygg
-쁛	bbygs
-쁜	bbyn	1000
-쁝	bbynj
-쁞	bbynh
-쁟	bbyd
-쁠	bbyl	1000
-쁡	bbbylg
-쁢	bbylm
-쁣	bbylb
-쁤	bbyls
-쁥	bbylt
-쁦	bbylp
-쁧	bbylh
-쁨	bbym	1000
-쁩	bbyb	1000
-쁪	bbybs
-쁫	bbys
-쁬	bbyss
-쁭	bbyq
-쁮	bbyj
-쁯	bbyc
-쁰	bbyk
-쁱	bbyt
-쁲	bbyp
-쁳	bbyh
-쁴	bbyi
-쁵	bbyig
-쁶	bbyigg
-쁷	bbyigs
-쁸	bbyin
-쁹	bbyinj
-쁺	bbyinh
-쁻	bbyid
-쁼	bbyil
-쁽	bbyilg
-쁾	bbyilm
-쁿	bbyilb
-삀	bbyils
-삁	bbyilt
-삂	bbyilp
-삃	bbyilh
-삄	bbyim
-삅	bbyib
-삆	bbyibs
-삇	bbyis
-삈	bbyiss
-삉	bbyiq
-삊	bbyij
-삋	bbyic
-삌	bbyik
-삍	bbyit
-삎	bbyip
-삏	bbyih
+쁘	bbw	1000
+쁙	bbwg
+쁚	bbwgg
+쁛	bbwgs
+쁜	bbwn	1000
+쁝	bbwnj
+쁞	bbwnh
+쁟	bbwd
+쁠	bbwl	1000
+쁡	bbbwlg
+쁢	bbwlm
+쁣	bbwlb
+쁤	bbwls
+쁥	bbwlt
+쁦	bbwlp
+쁧	bbwlh
+쁨	bbwm	1000
+쁩	bbwb	1000
+쁪	bbwbs
+쁫	bbws
+쁬	bbwss
+쁭	bbwx
+쁮	bbwj
+쁯	bbwc
+쁰	bbwk
+쁱	bbwt
+쁲	bbwp
+쁳	bbwh
+쁴	bbwi
+쁵	bbwig
+쁶	bbwigg
+쁷	bbwigs
+쁸	bbwin
+쁹	bbwinj
+쁺	bbwinh
+쁻	bbwid
+쁼	bbwil
+쁽	bbwilg
+쁾	bbwilm
+쁿	bbwilb
+삀	bbwils
+삁	bbwilt
+삂	bbwilp
+삃	bbwilh
+삄	bbwim
+삅	bbwib
+삆	bbwibs
+삇	bbwis
+삈	bbwiss
+삉	bbwix
+삊	bbwij
+삋	bbwic
+삌	bbwik
+삍	bbwit
+삎	bbwip
+삏	bbwih
 삐	bbi	1000
 삑	bbig	1000
 삒	bbigg
@@ -5336,7 +5336,7 @@ import_tables:
 삢	bbibs
 삣	bbis	1000
 삤	bbiss
-삥	bbiq	1000
+삥	bbix	1000
 삦	bbij
 삧	bbic
 삨	bbik
@@ -5348,8 +5348,8 @@ import_tables:
 ㅵ	bsd	0%
 ㅶ	bj	0%
 ㅷ	bt	0%
-ㅸ	bq	0%
-ㅹ	bbq	0%
+ㅸ	bx	0%
+ㅹ	bbx	0%
 ㅅ	s	0%
 사	sa	1000
 삭	sag	1000
@@ -5372,7 +5372,7 @@ import_tables:
 삾	sabs
 삿	sas	1000
 샀	sass	1000
-상	saq	1000
+상	sax	1000
 샂	saj
 샃	sac
 샄	sak
@@ -5400,7 +5400,7 @@ import_tables:
 샚	saibs
 샛	sais	1000
 샜	saiss	1000
-생	saiq	1000
+생	saix	1000
 샞	saij
 샟	saic
 샠	saik
@@ -5428,7 +5428,7 @@ import_tables:
 샶	siabs
 샷	sias	1000
 샸	siass
-샹	siaq	1000
+샹	siax	1000
 샺	siaj
 샻	siac
 샼	siak
@@ -5456,7 +5456,7 @@ import_tables:
 섒	siaibs
 섓	siais
 섔	siaiss
-섕	siaiq	1000
+섕	siaix	1000
 섖	siaij
 섗	siaic
 섘	siaik
@@ -5484,7 +5484,7 @@ import_tables:
 섮	sebs
 섯	ses	1000
 섰	sess	1000
-성	seq	1000
+성	sex	1000
 섲	sej
 섳	sec
 섴	sek
@@ -5512,7 +5512,7 @@ import_tables:
 셊	seibs
 셋	seis	1000
 셌	seiss	1000
-셍	seiq	1000
+셍	seix	1000
 셎	seij
 셏	seic
 셐	seik
@@ -5540,7 +5540,7 @@ import_tables:
 셦	siebs
 셧	sies	1000
 셨	siess	1000
-셩	sieq	1000
+셩	siex	1000
 셪	siej
 셫	siec
 셬	siek
@@ -5568,7 +5568,7 @@ import_tables:
 솂	sieibs
 솃	sieis
 솄	sieiss
-솅	sieiq	1000
+솅	sieix	1000
 솆	sieij
 솇	sieic
 솈	sieik
@@ -5596,7 +5596,7 @@ import_tables:
 솞	sobs
 솟	sos	1000
 솠	soss
-송	soq	1000
+송	sox	1000
 솢	soj
 솣	soc
 솤	sok
@@ -5624,7 +5624,7 @@ import_tables:
 솺	soabs
 솻	soas
 솼	soass
-솽	soaq	1000
+솽	soax	1000
 솾	soaj
 솿	soac
 쇀	soak
@@ -5652,7 +5652,7 @@ import_tables:
 쇖	soaibs
 쇗	soais	1000
 쇘	soaiss	1000
-쇙	soaiq
+쇙	soaix
 쇚	soaij
 쇛	soaic
 쇜	soaik
@@ -5680,7 +5680,7 @@ import_tables:
 쇲	soibs
 쇳	sois	1000
 쇴	soiss
-쇵	soiq
+쇵	soix
 쇶	soij
 쇷	soic
 쇸	soik
@@ -5708,7 +5708,7 @@ import_tables:
 숎	siobs
 숏	sios	1000
 숐	sioss
-숑	sioq	1000
+숑	siox	1000
 숒	sioj
 숓	sioc
 숔	siok
@@ -5736,7 +5736,7 @@ import_tables:
 숪	subs
 숫	sus	1000
 숬	suss
-숭	suq	1000
+숭	sux	1000
 숮	suj
 숯	suc	1000
 숰	suk
@@ -5764,7 +5764,7 @@ import_tables:
 쉆	suebs
 쉇	sues
 쉈	suess	1000
-쉉	sueq
+쉉	suex
 쉊	suej
 쉋	suec
 쉌	suek
@@ -5792,7 +5792,7 @@ import_tables:
 쉢	sueibs
 쉣	sueis
 쉤	sueiss
-쉥	sueiq	1000
+쉥	sueix	1000
 쉦	sueij
 쉧	sueic
 쉨	sueik
@@ -5820,7 +5820,7 @@ import_tables:
 쉾	suibs
 쉿	suis	1000
 슀	suiss
-슁	suiq	1000
+슁	suix	1000
 슂	suij
 슃	suic
 슄	suik
@@ -5848,69 +5848,69 @@ import_tables:
 슚	siubs
 슛	sius	1000
 슜	siuss
-슝	siuq	1000
+슝	siux	1000
 슞	siuj
 슟	siuc
 슠	siuk
 슡	siut
 슢	siup
 슣	siuh
-스	sy	1000
-슥	syg	1000
-슦	sygg
-슧	sygs
-슨	syn	1000
-슩	synj
-슪	synh
-슫	syd
-슬	syl	1000
-슭	sylg	1000
-슮	sylm
-슯	sylb
-슰	syls
-슱	sylt
-슲	sylp
-슳	sylh
-슴	sym	1000
-습	syb	1000
-슶	sybs
-슷	sys	1000
-슸	syss
-승	syq	1000
-슺	syj
-슻	syc
-슼	syk
-슽	syt
-슾	syp
-슿	syh
-싀	syi
-싁	syig
-싂	syigg
-싃	syigs
-싄	syin
-싅	syinj
-싆	syinh
-싇	syid
-싈	syil
-싉	syilg
-싊	syilm
-싋	syilb
-싌	syils
-싍	syilt
-싎	syilp
-싏	syilh
-싐	syim
-싑	syib
-싒	syibs
-싓	syis
-싔	syiss
-싕	syiq
-싖	syij
-싗	syic
-싘	syik
-싙	syit
-싚	syip
-싛	syih
+스	sw	1000
+슥	swg	1000
+슦	swgg
+슧	swgs
+슨	swn	1000
+슩	swnj
+슪	swnh
+슫	swd
+슬	swl	1000
+슭	swlg	1000
+슮	swlm
+슯	swlb
+슰	swls
+슱	swlt
+슲	swlp
+슳	swlh
+슴	swm	1000
+습	swb	1000
+슶	swbs
+슷	sws	1000
+슸	swss
+승	swx	1000
+슺	swj
+슻	swc
+슼	swk
+슽	swt
+슾	swp
+슿	swh
+싀	swi
+싁	swig
+싂	swigg
+싃	swigs
+싄	swin
+싅	swinj
+싆	swinh
+싇	swid
+싈	swil
+싉	swilg
+싊	swilm
+싋	swilb
+싌	swils
+싍	swilt
+싎	swilp
+싏	swilh
+싐	swim
+싑	swib
+싒	swibs
+싓	swis
+싔	swiss
+싕	swix
+싖	swij
+싗	swic
+싘	swik
+싙	swit
+싚	swip
+싛	swih
 시	si	1000
 식	sig	1000
 싞	sigg
@@ -5932,7 +5932,7 @@ import_tables:
 싮	sibs
 싯	sis	1000
 싰	siss
-싱	siq	1000
+싱	six	1000
 싲	sij
 싳	sic
 싴	sik
@@ -5965,7 +5965,7 @@ import_tables:
 쌊	ssabs
 쌋	ssas
 쌌	ssass	1000
-쌍	ssaq	1000
+쌍	ssax	1000
 쌎	ssaj
 쌏	ssac
 쌐	ssak
@@ -5993,7 +5993,7 @@ import_tables:
 쌦	ssaibs
 쌧	ssais
 쌨	ssaiss	1000
-쌩	ssaiq	1000
+쌩	ssaix	1000
 쌪	ssaij
 쌫	ssaic
 쌬	ssaik
@@ -6021,7 +6021,7 @@ import_tables:
 썂	ssiabs
 썃	ssias
 썄	ssiass
-썅	ssiaq	1000
+썅	ssiax	1000
 썆	ssiaj
 썇	ssiac
 썈	ssiak
@@ -6049,7 +6049,7 @@ import_tables:
 썞	ssiaibs
 썟	ssiais
 썠	ssiaiss
-썡	ssiaiq
+썡	ssiaix
 썢	ssiaij
 썣	ssiaic
 썤	ssiaik
@@ -6077,7 +6077,7 @@ import_tables:
 썺	ssebs
 썻	sses
 썼	ssess	1000
-썽	sseq	1000
+썽	ssex	1000
 썾	ssej
 썿	ssec
 쎀	ssek
@@ -6105,7 +6105,7 @@ import_tables:
 쎖	sseibs
 쎗	sseis
 쎘	sseiss
-쎙	sseiq
+쎙	sseix
 쎚	sseij
 쎛	sseic
 쎜	sseik
@@ -6133,7 +6133,7 @@ import_tables:
 쎲	ssiebs
 쎳	ssies
 쎴	ssiess
-쎵	ssieq
+쎵	ssiex
 쎶	ssiej
 쎷	ssiec
 쎸	ssiek
@@ -6161,7 +6161,7 @@ import_tables:
 쏎	ssieibs
 쏏	ssieis
 쏐	ssieiss
-쏑	ssieiq
+쏑	ssieix
 쏒	ssieij
 쏓	ssieic
 쏔	ssieik
@@ -6189,7 +6189,7 @@ import_tables:
 쏪	ssobs
 쏫	ssos
 쏬	ssoss
-쏭	ssoq	1000
+쏭	ssox	1000
 쏮	ssoj
 쏯	ssoc
 쏰	ssok
@@ -6217,7 +6217,7 @@ import_tables:
 쐆	ssoabs
 쐇	ssoas
 쐈	ssoass	1000
-쐉	ssoaq
+쐉	ssoax
 쐊	ssoaj
 쐋	ssoac
 쐌	ssoak
@@ -6245,7 +6245,7 @@ import_tables:
 쐢	ssoaibs
 쐣	ssoais
 쐤	ssoaiss	1000
-쐥	ssoaiq
+쐥	ssoaix
 쐦	ssoaij
 쐧	ssoaic
 쐨	ssoaik
@@ -6273,7 +6273,7 @@ import_tables:
 쐾	ssoibs
 쐿	ssois
 쑀	ssoiss
-쑁	ssoiq
+쑁	ssoix
 쑂	ssoij
 쑃	ssoic
 쑄	ssoik
@@ -6301,7 +6301,7 @@ import_tables:
 쑚	ssiobs
 쑛	ssios
 쑜	ssioss
-쑝	ssioq
+쑝	ssiox
 쑞	ssioj
 쑟	ssioc
 쑠	ssiok
@@ -6329,7 +6329,7 @@ import_tables:
 쑶	ssubs
 쑷	ssus
 쑸	ssuss
-쑹	ssuq	1000
+쑹	ssux	1000
 쑺	ssuj
 쑻	ssuc
 쑼	ssuk
@@ -6357,7 +6357,7 @@ import_tables:
 쒒	ssuebs
 쒓	ssues
 쒔	ssuess	1000
-쒕	ssueq
+쒕	ssuex
 쒖	ssuej
 쒗	ssuec
 쒘	ssuek
@@ -6385,7 +6385,7 @@ import_tables:
 쒮	ssueibs
 쒯	ssueis
 쒰	ssueiss
-쒱	ssueiq
+쒱	ssueix
 쒲	ssueij
 쒳	ssueic
 쒴	ssueik
@@ -6413,7 +6413,7 @@ import_tables:
 쓊	ssuibs
 쓋	ssuis
 쓌	ssuiss
-쓍	ssuiq
+쓍	ssuix
 쓎	ssuij
 쓏	ssuic
 쓐	ssuik
@@ -6441,69 +6441,69 @@ import_tables:
 쓦	ssiubs
 쓧	ssius
 쓨	ssiuss
-쓩	ssiuq	1000
+쓩	ssiux	1000
 쓪	ssiuj
 쓫	ssiuc
 쓬	ssiuk
 쓭	ssiut
 쓮	ssiup
 쓯	ssiuh
-쓰	ssy	1000
-쓱	ssyg	1000
-쓲	ssygg
-쓳	ssygs
-쓴	ssyn	1000
-쓵	ssynj
-쓶	ssynh
-쓷	ssyd
-쓸	ssyl	1000
-쓹	ssylg
-쓺	ssylm	1000
-쓻	ssylb
-쓼	ssyls
-쓽	ssylt
-쓾	ssylp
-쓿	ssylh	1000
-씀	ssym	1000
-씁	ssyb	1000
-씂	ssybs
-씃	ssys
-씄	ssyss
-씅	ssyq
-씆	ssyj
-씇	ssyc
-씈	ssyk
-씉	ssyt
-씊	ssyp
-씋	ssyh
-씌	ssyi	1000
-씍	ssyig
-씎	ssyigg
-씏	ssyigs
-씐	ssyin	1000
-씑	ssyinj
-씒	ssyinh
-씓	ssyid
-씔	ssyil	1000
-씕	ssyilg
-씖	ssyilm
-씗	ssyilb
-씘	ssyils
-씙	ssyilt
-씚	ssyilp
-씛	ssyilh
-씜	ssyim	1000
-씝	ssyib
-씞	ssyibs
-씟	ssyis
-씠	ssyiss
-씡	ssyiq
-씢	ssyij
-씣	ssyic
-씤	ssyik
-씥	ssyit
-씦	ssyip
-씧	ssyih
+쓰	ssw	1000
+쓱	sswg	1000
+쓲	sswgg
+쓳	sswgs
+쓴	sswn	1000
+쓵	sswnj
+쓶	sswnh
+쓷	sswd
+쓸	sswl	1000
+쓹	sswlg
+쓺	sswlm	1000
+쓻	sswlb
+쓼	sswls
+쓽	sswlt
+쓾	sswlp
+쓿	sswlh	1000
+씀	sswm	1000
+씁	sswb	1000
+씂	sswbs
+씃	ssws
+씄	sswss
+씅	sswx
+씆	sswj
+씇	sswc
+씈	sswk
+씉	sswt
+씊	sswp
+씋	sswh
+씌	sswi	1000
+씍	sswig
+씎	sswigg
+씏	sswigs
+씐	sswin	1000
+씑	sswinj
+씒	sswinh
+씓	sswid
+씔	sswil	1000
+씕	sswilg
+씖	sswilm
+씗	sswilb
+씘	sswils
+씙	sswilt
+씚	sswilp
+씛	sswilh
+씜	sswim	1000
+씝	sswib
+씞	sswibs
+씟	sswis
+씠	sswiss
+씡	sswix
+씢	sswij
+씣	sswic
+씤	sswik
+씥	sswit
+씦	sswip
+씧	sswih
 씨	ssi	1000
 씩	ssig	1000
 씪	ssigg
@@ -6525,7 +6525,7 @@ import_tables:
 씺	ssibs
 씻	ssis	1000
 씼	ssiss
-씽	ssiq	1000
+씽	ssix	1000
 씾	ssij
 씿	ssic
 앀	ssik
@@ -6534,599 +6534,599 @@ import_tables:
 앃	ssih
 ㅾ	sj	0%
 ㅿ	z	0%
-ㅇ	q	0%
-아	qa	1000
-악	qag	1000
-앆	qagg
-앇	qags
-안	qan	1000
-앉	qanj	1000
-않	qanh	1000
-앋	qad
-알	qal	1000
-앍	qalg	1000
-앎	qalm	1000
-앏	qalb
-앐	qals
-앑	qalt
-앒	qalp
-앓	qalh	1000
-암	qam	1000
-압	qab	1000
-앖	qabs
-앗	qas	1000
-았	qass	1000
-앙	qaq	1000
-앚	qaj
-앛	qac
-앜	qak
-앝	qat	1000
-앞	qap	1000
-앟	qah
-애	qai	1000
-액	qaig	1000
-앢	qaigg
-앣	qaigs
-앤	qain	1000
-앥	qainj
-앦	qainh
-앧	qaid
-앨	qail	1000
-앩	qailg
-앪	qailm
-앫	qailb
-앬	qails
-앭	qailt
-앮	qailp
-앯	qailh
-앰	qaim	1000
-앱	qaib	1000
-앲	qaibs
-앳	qais	1000
-앴	qaiss	1000
-앵	qaiq	1000
-앶	qaij
-앷	qaic
-앸	qaik
-앹	qait
-앺	qaip
-앻	qaih
-야	qia	1000
-약	qiag	1000
-앾	qiagg
-앿	qiags
-얀	qian	1000
-얁	qianj
-얂	qianh
-얃	qiad
-얄	qial	1000
-얅	qialg
-얆	qialm
-얇	qialb	1000
-얈	qials
-얉	qialt
-얊	qialp
-얋	qialh
-얌	qiam	1000
-얍	qiab	1000
-얎	qiabs
-얏	qias	1000
-얐	qiass
-양	qiaq	1000
-얒	qiaj
-얓	qiac
-얔	qiak
-얕	qiat	1000
-얖	qiap
-얗	qiah	1000
-얘	qiai	1000
-얙	qiaig
-얚	qiaigg
-얛	qiaigs
-얜	qiain	1000
-얝	qiainj
-얞	qiainh
-얟	qiaid
-얠	qiail	1000
-얡	qiailg
-얢	qiailm
-얣	qiailb
-얤	qiails
-얥	qiailt
-얦	qiailp
-얧	qiailh
-얨	qiaim
-얩	qiaib	1000
-얪	qiaibs
-얫	qiais
-얬	qiaiss
-얭	qiaiq
-얮	qiaij
-얯	qiaic
-얰	qiaik
-얱	qiait
-얲	qiaip
-얳	qiaih
-어	qe	1000
-억	qeg	1000
-얶	qegg
-얷	qegs
-언	qen	1000
-얹	qenj	1000
-얺	qenh
-얻	qed	1000
-얼	qel	1000
-얽	qelg	1000
-얾	qelm	1000
-얿	qelb
-엀	qels
-엁	qelt
-엂	qelp
-엃	qelh
-엄	qem	1000
-업	qeb	1000
-없	qebs	1000
-엇	qes	1000
-었	qess	1000
-엉	qeq	1000
-엊	qej	1000
-엋	qec
-엌	qek	1000
-엍	qet
-엎	qep	1000
-엏	qeh
-에	qei	1000
-엑	qeig	1000
-엒	qeigg
-엓	qeigs
-엔	qein	1000
-엕	qeinj
-엖	qeinh
-엗	qeid
-엘	qeil	1000
-엙	qeilg
-엚	qeilm
-엛	qeilb
-엜	qeils
-엝	qeilt
-엞	qeilp
-엟	qeilh
-엠	qeim	1000
-엡	qeib	1000
-엢	qeibs
-엣	qeis	1000
-엤	qeiss
-엥	qeiq	1000
-엦	qeij
-엧	qeic
-엨	qeik
-엩	qeit
-엪	qeip
-엫	qeih
-여	qie	1000
-역	qieg	1000
-엮	qiegg	1000
-엯	qiegs
-연	qien	1000
-엱	qienj
-엲	qienh
-엳	qied
-열	qiel	1000
-엵	qielg
-엶	qielm	1000
-엷	qielb	1000
-엸	qiels
-엹	qielt
-엺	qielp
-엻	qielh
-염	qiem	1000
-엽	qieb	1000
-엾	qiebs	1000
-엿	qies	1000
-였	qiess	1000
-영	qieq	1000
-옂	qiej
-옃	qiec
-옄	qiek
-옅	qiet	1000
-옆	qoep	1000
-옇	qieh	1000
-예	qiei	1000
-옉	qieig
-옊	qieigg
-옋	qieigs
-옌	qiein	1000
-옍	qieinj
-옎	qieinh
-옏	qieid
-옐	qieil	1000
-옑	qieilg
-옒	qieilm
-옓	qieilb
-옔	qieils
-옕	qieilt
-옖	qieilp
-옗	qieilh
-옘	qieim	1000
-옙	qieib	1000
-옚	qieibs
-옛	qieis	1000
-옜	qieiss	1000
-옝	qieiq
-옞	qieij
-옟	qieic
-옠	qieik
-옡	qieit
-옢	qieip
-옣	qieih
-오	qo	1000
-옥	qog	1000
-옦	qogg
-옧	qogs
-온	qon	1000
-옩	qonj
-옪	qonh
-옫	qod
-올	qol	1000
-옭	qolg	1000
-옮	qolm	1000
-옯	qolb
-옰	qols	1000
-옱	qolt
-옲	qolp
-옳	qolh	1000
-옴	qom	1000
-옵	qob	1000
-옶	qobs
-옷	qos	1000
-옸	qoss
-옹	qoq	1000
-옺	qoj
-옻	qoc	1000
-옼	qok
-옽	qot
-옾	qop
-옿	qoh
-와	qoa	1000
-왁	qoag	1000
-왂	qoagg
-왃	qoags
-완	qoan	1000
-왅	qoanj
-왆	qoanh
-왇	qoad
-왈	qoal	1000
-왉	qoalg
-왊	qoalm
-왋	qoalb
-왌	qoals
-왍	qoalt
-왎	qoalp
-왏	qoalh
-왐	qoam	1000
-왑	qoab	1000
-왒	qoabs
-왓	qoas	1000
-왔	qoass	1000
-왕	qoaq	1000
-왖	qoaj
-왗	qoac
-왘	qoak
-왙	qoat
-왚	qoap
-왛	qoah
-왜	qoai	1000
-왝	qoaig	1000
-왞	qoaigg
-왟	qoaigs
-왠	qoain	1000
-왡	qoainj
-왢	qoainh
-왣	qoaid
-왤	qoail
-왥	qoailg
-왦	qoailm
-왧	qoailb
-왨	qoails
-왩	qoailt
-왪	qoailp
-왫	qoailh
-왬	qoaim	1000
-왭	qoaib
-왮	qoaibs
-왯	qoais	1000
-왰	qoaiss
-왱	qoaiq	1000
-왲	qoaij
-왳	qoaic
-왴	qoaik
-왵	qoait
-왶	qoaip
-왷	qoaih
-외	qoi	1000
-왹	qoig	1000
-왺	qoigg
-왻	qoigs
-왼	qoin	1000
-왽	qoinj
-왾	qoinh
-왿	qoid
-욀	qoil	1000
-욁	qoilg
-욂	qoilm
-욃	qoilb
-욄	qoils
-욅	qoilt
-욆	qoilp
-욇	qoilh
-욈	qoim	1000
-욉	qoib	1000
-욊	qoibs
-욋	qois	1000
-욌	qoiss
-욍	qoiq	1000
-욎	qoij
-욏	qoic
-욐	qoik
-욑	qoit
-욒	qoip
-욓	qoih
-요	qio	1000
-욕	qiog	1000
-욖	qiogg
-욗	qiogs
-욘	qion	1000
-욙	qionj
-욚	qionh
-욛	qiod
-욜	qiol	1000
-욝	qiolg
-욞	qiolm
-욟	qiolb
-욠	qiols
-욡	qiolt
-욢	qiolp
-욣	qiolh
-욤	qiom	1000
-욥	qiob	1000
-욦	qiobs
-욧	qios	1000
-욨	qioss
-용	qioq	1000
-욪	qioj
-욫	qioc
-욬	qiok
-욭	qiot
-욮	qiop
-욯	qioh
-우	qu	1000
-욱	qug	1000
-욲	qugg
-욳	qugs
-운	qun	1000
-욵	qunj
-욶	qunh
-욷	qud
-울	qul	1000
-욹	qulg	1000
-욺	qulm	1000
-욻	qulb
-욼	quls
-욽	qult
-욾	qulp
-욿	qulh
-움	qum	1000
-웁	qub	1000
-웂	qubs
-웃	qus	1000
-웄	quss
-웅	quq	1000
-웆	quj
-웇	quc
-웈	quk
-웉	qut
-웊	qup
-웋	quh
-워	que	1000
-웍	queg	1000
-웎	quegg
-웏	quegs
-원	quen	1000
-웑	quenj
-웒	quenh
-웓	qued
-월	quel	1000
-웕	quelg
-웖	quelm
-웗	quelb
-웘	quels
-웙	quelt
-웚	quelp
-웛	quelh
-웜	quem	1000
-웝	queb	1000
-웞	quebs
-웟	ques
-웠	quess	1000
-웡	queq	1000
-웢	quej
-웣	quec
-웤	quek
-웥	quet
-웦	quep
-웧	queh
-웨	quei	1000
-웩	queig	1000
-웪	queigg
-웫	queigs
-웬	quein	1000
-웭	queinj
-웮	queinh
-웯	queid
-웰	queil	1000
-웱	queilg
-웲	queilm
-웳	queilb
-웴	queils
-웵	queilt
-웶	queilp
-웷	queilh
-웸	queim	1000
-웹	queib	1000
-웺	queibs
-웻	queis
-웼	queiss
-웽	queiq	1000
-웾	queij
-웿	queic
-윀	queik
-윁	queit
-윂	queip
-윃	queih
-위	qui	1000
-윅	quig	1000
-윆	quigg
-윇	quigs
-윈	quin	1000
-윉	quinj
-윊	quinh
-윋	quid
-윌	quil	1000
-윍	quilg
-윎	quilm
-윏	quilb
-윐	quils
-윑	quilt
-윒	quilp
-윓	quilh
-윔	quim	1000
-윕	quib	1000
-윖	quilbs
-윗	quis	1000
-윘	quiss
-윙	quiq	1000
-윚	quij
-윛	quic
-윜	quik
-윝	quit
-윞	quip
-윟	quih
-유	qiu	1000
-육	qiug	1000
-윢	qiugg
-윣	qiugs
-윤	qiun	1000
-윥	qiunj
-윦	qiunh
-윧	qiud
-율	qiul	1000
-윩	qiulg
-윪	qiulm
-윫	qiulb
-윬	qiuls
-윭	qiult
-윮	qiulp
-윯	qiulh
-윰	qium	1000
-윱	qiub	1000
-윲	qiubs
-윳	qius	1000
-윴	qiuss
-융	qiuq	1000
-윶	qiuj
-윷	qiuc	1000
-윸	qiuk
-윹	qiut
-윺	qiup
-윻	qiuh
-으	qy	1000
-윽	qyg	1000
-윾	qygg
-윿	qygs
-은	qyn	1000
-읁	qynj
-읂	qynh
-읃	qyd
-을	qyl	1000
-읅	qylg
-읆	qylm
-읇	qylb
-읈	qyls
-읉	qylt
-읊	qylp	1000
-읋	qylh
-음	qym	1000
-읍	qyb	1000
-읎	qybs
-읏	qys	1000
-읐	qyss
-응	qyq	1000
-읒	qyj	1000
-읓	qyc	1000
-읔	qyk	1000
-읕	qyt	1000
-읖	qyp	1000
-읗	qyh	1000
-의	qyi	1000
-읙	qyig
-읚	qyigg
-읛	qyigs
-읜	qyin	1000
-읝	qyinj
-읞	qyinh
-읟	qyid
-읠	qyil	1000
-읡	qyilg
-읢	qyilm
-읣	qyilb
-읤	qyils
-읥	qyilt
-읦	qyilp
-읧	qyilh
-읨	qyim	1000
-읩	qyib
-읪	qyibs
-읫	qyis	1000
-읬	qyiss
-읭	qyiq
-읮	qyij
-읯	qyic
-읰	qyik
-읱	qyit
-읲	qyip
-읳	qyih
-이	qi	1000
-익	qig	1000
-읶	qigg
-읷	qigs
-인	qin	1000
-읹	qinj
-읺	qinh
-읻	qid
-일	qil	1000
-읽	qilg	1000
-읾	qilm	1000
-읿	qilb
-잀	qils
-잁	qilt
-잂	qilp
-잃	qilh	1000
-임	qim	1000
-입	qib	1000
-잆	qibs
-잇	qis	1000
-있	qiss	1000
-잉	qiq	1000
-잊	qij	1000
-잋	qic
-잌	qik
-잍	qit
-잎	qip	1000
-잏	qih
-ㆀ	qq	0%
+ㅇ	x	0%
+아	xa	1000
+악	xag	1000
+앆	xagg
+앇	xags
+안	xan	1000
+앉	xanj	1000
+않	xanh	1000
+앋	xad
+알	xal	1000
+앍	xalg	1000
+앎	xalm	1000
+앏	xalb
+앐	xals
+앑	xalt
+앒	xalp
+앓	xalh	1000
+암	xam	1000
+압	xab	1000
+앖	xabs
+앗	xas	1000
+았	xass	1000
+앙	xax	1000
+앚	xaj
+앛	xac
+앜	xak
+앝	xat	1000
+앞	xap	1000
+앟	xah
+애	xai	1000
+액	xaig	1000
+앢	xaigg
+앣	xaigs
+앤	xain	1000
+앥	xainj
+앦	xainh
+앧	xaid
+앨	xail	1000
+앩	xailg
+앪	xailm
+앫	xailb
+앬	xails
+앭	xailt
+앮	xailp
+앯	xailh
+앰	xaim	1000
+앱	xaib	1000
+앲	xaibs
+앳	xais	1000
+앴	xaiss	1000
+앵	xaix	1000
+앶	xaij
+앷	xaic
+앸	xaik
+앹	xait
+앺	xaip
+앻	xaih
+야	xia	1000
+약	xiag	1000
+앾	xiagg
+앿	xiags
+얀	xian	1000
+얁	xianj
+얂	xianh
+얃	xiad
+얄	xial	1000
+얅	xialg
+얆	xialm
+얇	xialb	1000
+얈	xials
+얉	xialt
+얊	xialp
+얋	xialh
+얌	xiam	1000
+얍	xiab	1000
+얎	xiabs
+얏	xias	1000
+얐	xiass
+양	xiax	1000
+얒	xiaj
+얓	xiac
+얔	xiak
+얕	xiat	1000
+얖	xiap
+얗	xiah	1000
+얘	xiai	1000
+얙	xiaig
+얚	xiaigg
+얛	xiaigs
+얜	xiain	1000
+얝	xiainj
+얞	xiainh
+얟	xiaid
+얠	xiail	1000
+얡	xiailg
+얢	xiailm
+얣	xiailb
+얤	xiails
+얥	xiailt
+얦	xiailp
+얧	xiailh
+얨	xiaim
+얩	xiaib	1000
+얪	xiaibs
+얫	xiais
+얬	xiaiss
+얭	xiaix
+얮	xiaij
+얯	xiaic
+얰	xiaik
+얱	xiait
+얲	xiaip
+얳	xiaih
+어	xe	1000
+억	xeg	1000
+얶	xegg
+얷	xegs
+언	xen	1000
+얹	xenj	1000
+얺	xenh
+얻	xed	1000
+얼	xel	1000
+얽	xelg	1000
+얾	xelm	1000
+얿	xelb
+엀	xels
+엁	xelt
+엂	xelp
+엃	xelh
+엄	xem	1000
+업	xeb	1000
+없	xebs	1000
+엇	xes	1000
+었	xess	1000
+엉	xex	1000
+엊	xej	1000
+엋	xec
+엌	xek	1000
+엍	xet
+엎	xep	1000
+엏	xeh
+에	xei	1000
+엑	xeig	1000
+엒	xeigg
+엓	xeigs
+엔	xein	1000
+엕	xeinj
+엖	xeinh
+엗	xeid
+엘	xeil	1000
+엙	xeilg
+엚	xeilm
+엛	xeilb
+엜	xeils
+엝	xeilt
+엞	xeilp
+엟	xeilh
+엠	xeim	1000
+엡	xeib	1000
+엢	xeibs
+엣	xeis	1000
+엤	xeiss
+엥	xeix	1000
+엦	xeij
+엧	xeic
+엨	xeik
+엩	xeit
+엪	xeip
+엫	xeih
+여	xie	1000
+역	xieg	1000
+엮	xiegg	1000
+엯	xiegs
+연	xien	1000
+엱	xienj
+엲	xienh
+엳	xied
+열	xiel	1000
+엵	xielg
+엶	xielm	1000
+엷	xielb	1000
+엸	xiels
+엹	xielt
+엺	xielp
+엻	xielh
+염	xiem	1000
+엽	xieb	1000
+엾	xiebs	1000
+엿	xies	1000
+였	xiess	1000
+영	xiex	1000
+옂	xiej
+옃	xiec
+옄	xiek
+옅	xiet	1000
+옆	xoep	1000
+옇	xieh	1000
+예	xiei	1000
+옉	xieig
+옊	xieigg
+옋	xieigs
+옌	xiein	1000
+옍	xieinj
+옎	xieinh
+옏	xieid
+옐	xieil	1000
+옑	xieilg
+옒	xieilm
+옓	xieilb
+옔	xieils
+옕	xieilt
+옖	xieilp
+옗	xieilh
+옘	xieim	1000
+옙	xieib	1000
+옚	xieibs
+옛	xieis	1000
+옜	xieiss	1000
+옝	xieix
+옞	xieij
+옟	xieic
+옠	xieik
+옡	xieit
+옢	xieip
+옣	xieih
+오	xo	1000
+옥	xog	1000
+옦	xogg
+옧	xogs
+온	xon	1000
+옩	xonj
+옪	xonh
+옫	xod
+올	xol	1000
+옭	xolg	1000
+옮	xolm	1000
+옯	xolb
+옰	xols	1000
+옱	xolt
+옲	xolp
+옳	xolh	1000
+옴	xom	1000
+옵	xob	1000
+옶	xobs
+옷	xos	1000
+옸	xoss
+옹	xox	1000
+옺	xoj
+옻	xoc	1000
+옼	xok
+옽	xot
+옾	xop
+옿	xoh
+와	xoa	1000
+왁	xoag	1000
+왂	xoagg
+왃	xoags
+완	xoan	1000
+왅	xoanj
+왆	xoanh
+왇	xoad
+왈	xoal	1000
+왉	xoalg
+왊	xoalm
+왋	xoalb
+왌	xoals
+왍	xoalt
+왎	xoalp
+왏	xoalh
+왐	xoam	1000
+왑	xoab	1000
+왒	xoabs
+왓	xoas	1000
+왔	xoass	1000
+왕	xoax	1000
+왖	xoaj
+왗	xoac
+왘	xoak
+왙	xoat
+왚	xoap
+왛	xoah
+왜	xoai	1000
+왝	xoaig	1000
+왞	xoaigg
+왟	xoaigs
+왠	xoain	1000
+왡	xoainj
+왢	xoainh
+왣	xoaid
+왤	xoail
+왥	xoailg
+왦	xoailm
+왧	xoailb
+왨	xoails
+왩	xoailt
+왪	xoailp
+왫	xoailh
+왬	xoaim	1000
+왭	xoaib
+왮	xoaibs
+왯	xoais	1000
+왰	xoaiss
+왱	xoaix	1000
+왲	xoaij
+왳	xoaic
+왴	xoaik
+왵	xoait
+왶	xoaip
+왷	xoaih
+외	xoi	1000
+왹	xoig	1000
+왺	xoigg
+왻	xoigs
+왼	xoin	1000
+왽	xoinj
+왾	xoinh
+왿	xoid
+욀	xoil	1000
+욁	xoilg
+욂	xoilm
+욃	xoilb
+욄	xoils
+욅	xoilt
+욆	xoilp
+욇	xoilh
+욈	xoim	1000
+욉	xoib	1000
+욊	xoibs
+욋	xois	1000
+욌	xoiss
+욍	xoix	1000
+욎	xoij
+욏	xoic
+욐	xoik
+욑	xoit
+욒	xoip
+욓	xoih
+요	xio	1000
+욕	xiog	1000
+욖	xiogg
+욗	xiogs
+욘	xion	1000
+욙	xionj
+욚	xionh
+욛	xiod
+욜	xiol	1000
+욝	xiolg
+욞	xiolm
+욟	xiolb
+욠	xiols
+욡	xiolt
+욢	xiolp
+욣	xiolh
+욤	xiom	1000
+욥	xiob	1000
+욦	xiobs
+욧	xios	1000
+욨	xioss
+용	xiox	1000
+욪	xioj
+욫	xioc
+욬	xiok
+욭	xiot
+욮	xiop
+욯	xioh
+우	xu	1000
+욱	xug	1000
+욲	xugg
+욳	xugs
+운	xun	1000
+욵	xunj
+욶	xunh
+욷	xud
+울	xul	1000
+욹	xulg	1000
+욺	xulm	1000
+욻	xulb
+욼	xuls
+욽	xult
+욾	xulp
+욿	xulh
+움	xum	1000
+웁	xub	1000
+웂	xubs
+웃	xus	1000
+웄	xuss
+웅	xux	1000
+웆	xuj
+웇	xuc
+웈	xuk
+웉	xut
+웊	xup
+웋	xuh
+워	xue	1000
+웍	xueg	1000
+웎	xuegg
+웏	xuegs
+원	xuen	1000
+웑	xuenj
+웒	xuenh
+웓	xued
+월	xuel	1000
+웕	xuelg
+웖	xuelm
+웗	xuelb
+웘	xuels
+웙	xuelt
+웚	xuelp
+웛	xuelh
+웜	xuem	1000
+웝	xueb	1000
+웞	xuebs
+웟	xues
+웠	xuess	1000
+웡	xuex	1000
+웢	xuej
+웣	xuec
+웤	xuek
+웥	xuet
+웦	xuep
+웧	xueh
+웨	xuei	1000
+웩	xueig	1000
+웪	xueigg
+웫	xueigs
+웬	xuein	1000
+웭	xueinj
+웮	xueinh
+웯	xueid
+웰	xueil	1000
+웱	xueilg
+웲	xueilm
+웳	xueilb
+웴	xueils
+웵	xueilt
+웶	xueilp
+웷	xueilh
+웸	xueim	1000
+웹	xueib	1000
+웺	xueibs
+웻	xueis
+웼	xueiss
+웽	xueix	1000
+웾	xueij
+웿	xueic
+윀	xueik
+윁	xueit
+윂	xueip
+윃	xueih
+위	xui	1000
+윅	xuig	1000
+윆	xuigg
+윇	xuigs
+윈	xuin	1000
+윉	xuinj
+윊	xuinh
+윋	xuid
+윌	xuil	1000
+윍	xuilg
+윎	xuilm
+윏	xuilb
+윐	xuils
+윑	xuilt
+윒	xuilp
+윓	xuilh
+윔	xuim	1000
+윕	xuib	1000
+윖	xuilbs
+윗	xuis	1000
+윘	xuiss
+윙	xuix	1000
+윚	xuij
+윛	xuic
+윜	xuik
+윝	xuit
+윞	xuip
+윟	xuih
+유	xiu	1000
+육	xiug	1000
+윢	xiugg
+윣	xiugs
+윤	xiun	1000
+윥	xiunj
+윦	xiunh
+윧	xiud
+율	xiul	1000
+윩	xiulg
+윪	xiulm
+윫	xiulb
+윬	xiuls
+윭	xiult
+윮	xiulp
+윯	xiulh
+윰	xium	1000
+윱	xiub	1000
+윲	xiubs
+윳	xius	1000
+윴	xiuss
+융	xiux	1000
+윶	xiuj
+윷	xiuc	1000
+윸	xiuk
+윹	xiut
+윺	xiup
+윻	xiuh
+으	xw	1000
+윽	xwg	1000
+윾	xwgg
+윿	xwgs
+은	xwn	1000
+읁	xwnj
+읂	xwnh
+읃	xwd
+을	xwl	1000
+읅	xwlg
+읆	xwlm
+읇	xwlb
+읈	xwls
+읉	xwlt
+읊	xwlp	1000
+읋	xwlh
+음	xwm	1000
+읍	xwb	1000
+읎	xwbs
+읏	xws	1000
+읐	xwss
+응	xwx	1000
+읒	xwj	1000
+읓	xwc	1000
+읔	xwk	1000
+읕	xwt	1000
+읖	xwp	1000
+읗	xwh	1000
+의	xwi	1000
+읙	xwig
+읚	xwigg
+읛	xwigs
+읜	xwin	1000
+읝	xwinj
+읞	xwinh
+읟	xwid
+읠	xwil	1000
+읡	xwilg
+읢	xwilm
+읣	xwilb
+읤	xwils
+읥	xwilt
+읦	xwilp
+읧	xwilh
+읨	xwim	1000
+읩	xwib
+읪	xwibs
+읫	xwis	1000
+읬	xwiss
+읭	xwix
+읮	xwij
+읯	xwic
+읰	xwik
+읱	xwit
+읲	xwip
+읳	xwih
+이	xi	1000
+익	xig	1000
+읶	xigg
+읷	xigs
+인	xin	1000
+읹	xinj
+읺	xinh
+읻	xid
+일	xil	1000
+읽	xilg	1000
+읾	xilm	1000
+읿	xilb
+잀	xils
+잁	xilt
+잂	xilp
+잃	xilh	1000
+임	xim	1000
+입	xib	1000
+잆	xibs
+잇	xis	1000
+있	xiss	1000
+잉	xix	1000
+잊	xij	1000
+잋	xic
+잌	xik
+잍	xit
+잎	xip	1000
+잏	xih
+ㆀ	xx	0%
 ㆁ	ng	0%
-ㆂ	qs	0%
-ㆃ	qz	0%
+ㆂ	xs	0%
+ㆃ	xz	0%
 ㅈ	j	0%
 자	ja	1000
 작	jag	1000
@@ -7149,7 +7149,7 @@ import_tables:
 잢	jabs
 잣	jas	1000
 잤	jass	1000
-장	jaq	1000
+장	jax	1000
 잦	jaj	1000
 잧	jac
 잨	jak
@@ -7177,7 +7177,7 @@ import_tables:
 잾	jaibs
 잿	jais	1000
 쟀	jaiss	1000
-쟁	jaiq	1000
+쟁	jaix	1000
 쟂	jaij
 쟃	jaic
 쟄	jaik
@@ -7205,7 +7205,7 @@ import_tables:
 쟚	jiabs
 쟛	jias
 쟜	jiass
-쟝	jiaq	1000
+쟝	jiax	1000
 쟞	jiaj
 쟟	jiac
 쟠	jiak
@@ -7233,7 +7233,7 @@ import_tables:
 쟶	jiaibs
 쟷	jiais
 쟸	jiaiss
-쟹	jiaiq
+쟹	jiaix
 쟺	jiaij
 쟻	jiaic
 쟼	jiaik
@@ -7261,7 +7261,7 @@ import_tables:
 젒	jebs
 젓	jes	1000
 젔	jess
-정	jeq	1000
+정	jex	1000
 젖	jej	1000
 젗	jec
 젘	jek
@@ -7289,7 +7289,7 @@ import_tables:
 젮	jeibs
 젯	jeis	1000
 젰	jeiss
-젱	jeiq	1000
+젱	jeix	1000
 젲	jeij
 젳	jeic
 젴	jeik
@@ -7317,7 +7317,7 @@ import_tables:
 졊	jiebs
 졋	jies
 졌	jiess	1000
-졍	jieq	1000
+졍	jiex	1000
 졎	jiej
 졏	jiec
 졐	jiek
@@ -7345,7 +7345,7 @@ import_tables:
 졦	jieibs
 졧	jieis
 졨	jieiss
-졩	jieiq
+졩	jieix
 졪	jieij
 졫	jieic
 졬	jieik
@@ -7373,7 +7373,7 @@ import_tables:
 좂	jobs
 좃	jos	1000
 좄	joss
-종	joq	1000
+종	jox	1000
 좆	joj	1000
 좇	joc	1000
 좈	jok
@@ -7401,7 +7401,7 @@ import_tables:
 좞	joabs
 좟	joas	1000
 좠	joass
-좡	joaq	1000
+좡	joax	1000
 좢	joaj
 좣	joac
 좤	joak
@@ -7429,7 +7429,7 @@ import_tables:
 좺	joaibs
 좻	joais
 좼	joaiss	1000
-좽	joaiq	1000
+좽	joaix	1000
 좾	joaij
 좿	joaic
 죀	joaik
@@ -7457,7 +7457,7 @@ import_tables:
 죖	joibs
 죗	jois	1000
 죘	joiss
-죙	joiq	1000
+죙	joix	1000
 죚	joij
 죛	joic
 죜	joik
@@ -7485,7 +7485,7 @@ import_tables:
 죲	jiobs
 죳	jios
 죴	jioss
-죵	jioq	1000
+죵	jiox	1000
 죶	jioj
 죷	jioc
 죸	jiok
@@ -7513,7 +7513,7 @@ import_tables:
 줎	jubs
 줏	jus	1000
 줐	juss
-중	juq	1000
+중	jux	1000
 줒	juj
 줓	juc
 줔	juk
@@ -7541,7 +7541,7 @@ import_tables:
 줪	juebs
 줫	jues
 줬	juess	1000
-줭	jueq
+줭	juex
 줮	juej
 줯	juec
 줰	juek
@@ -7569,7 +7569,7 @@ import_tables:
 쥆	jueibs
 쥇	jueis
 쥈	jueiss
-쥉	jueiq
+쥉	jueix
 쥊	jueij
 쥋	jueic
 쥌	jueik
@@ -7597,7 +7597,7 @@ import_tables:
 쥢	juibs
 쥣	juis	1000
 쥤	juiss
-쥥	juiq
+쥥	juix
 쥦	juij
 쥧	juic
 쥨	juik
@@ -7625,69 +7625,69 @@ import_tables:
 쥾	jiubs
 쥿	jius
 즀	jiuss
-즁	jiuq
+즁	jiux
 즂	jiuj
 즃	jiuc
 즄	jiuk
 즅	jiut
 즆	jiup
 즇	jiuh
-즈	jy	1000
-즉	jyg	1000
-즊	jygg
-즋	jygs
-즌	jyn	1000
-즍	jynj
-즎	jynh
-즏	jyd
-즐	jyl	1000
-즑	jylg
-즒	jylm
-즓	jylb
-즔	jyls
-즕	jylt
-즖	jylp
-즗	jylh
-즘	jym	1000
-즙	jyb	1000
-즚	jybs
-즛	jys	1000
-즜	jyss
-증	jyq	1000
-즞	jyj
-즟	jyc
-즠	jyk
-즡	jyt
-즢	jyp
-즣	jyh
-즤	jyi
-즥	jyig
-즦	jyigg
-즧	jyigs
-즨	jyin
-즩	jyinj
-즪	jyinh
-즫	jyid
-즬	jyil
-즭	jyilg
-즮	jyilm
-즯	jyilb
-즰	jyils
-즱	jyilt
-즲	jyilp
-즳	jyilh
-즴	jyim
-즵	jyib
-즶	jyibs
-즷	jyis
-즸	jyiss
-즹	jyiq
-즺	jyij
-즻	jyic
-즼	jyik
-즽	jyit
-즾	jyip
-즿	jyih
+즈	jw	1000
+즉	jwg	1000
+즊	jwgg
+즋	jwgs
+즌	jwn	1000
+즍	jwnj
+즎	jwnh
+즏	jwd
+즐	jwl	1000
+즑	jwlg
+즒	jwlm
+즓	jwlb
+즔	jwls
+즕	jwlt
+즖	jwlp
+즗	jwlh
+즘	jwm	1000
+즙	jwb	1000
+즚	jwbs
+즛	jws	1000
+즜	jwss
+증	jwx	1000
+즞	jwj
+즟	jwc
+즠	jwk
+즡	jwt
+즢	jwp
+즣	jwh
+즤	jwi
+즥	jwig
+즦	jwigg
+즧	jwigs
+즨	jwin
+즩	jwinj
+즪	jwinh
+즫	jwid
+즬	jwil
+즭	jwilg
+즮	jwilm
+즯	jwilb
+즰	jwils
+즱	jwilt
+즲	jwilp
+즳	jwilh
+즴	jwim
+즵	jwib
+즶	jwibs
+즷	jwis
+즸	jwiss
+즹	jwix
+즺	jwij
+즻	jwic
+즼	jwik
+즽	jwit
+즾	jwip
+즿	jwih
 지	ji	1000
 직	jig	1000
 짂	jigg
@@ -7709,7 +7709,7 @@ import_tables:
 짒	jibs
 짓	jis	1000
 짔	jiss
-징	jiq	1000
+징	jix	1000
 짖	jij	1000
 짗	jic
 짘	jik
@@ -7738,7 +7738,7 @@ import_tables:
 짮	jjabs
 짯	jjas	1000
 짰	jjass	1000
-짱	jjaq	1000
+짱	jjax	1000
 짲	jjaj
 짳	jjac
 짴	jjak
@@ -7766,7 +7766,7 @@ import_tables:
 쨊	jjaibs
 쨋	jjais	1000
 쨌	jjaiss	1000
-쨍	jjaiq	1000
+쨍	jjaix	1000
 쨎	jjaij
 쨏	jjaic
 쨐	jjaik
@@ -7794,7 +7794,7 @@ import_tables:
 쨦	jjiabs
 쨧	jjias
 쨨	jjiass
-쨩	jjiaq	1000
+쨩	jjiax	1000
 쨪	jjiaj
 쨫	jjiac
 쨬	jjiak
@@ -7822,7 +7822,7 @@ import_tables:
 쩂	jjiaibs
 쩃	jjiais
 쩄	jjiaiss
-쩅	jjiaiq
+쩅	jjiaix
 쩆	jjiaij
 쩇	jjiaic
 쩈	jjiaik
@@ -7850,7 +7850,7 @@ import_tables:
 쩞	jjebs
 쩟	jjes	1000
 쩠	jjess	1000
-쩡	jjeq	1000
+쩡	jjex	1000
 쩢	jjej
 쩣	jjec
 쩤	jjek
@@ -7878,7 +7878,7 @@ import_tables:
 쩺	jjeibs
 쩻	jjeis
 쩼	jjeiss
-쩽	jjeiq	1000
+쩽	jjeix	1000
 쩾	jjeij
 쩿	jjeic
 쪀	jjeik
@@ -7906,7 +7906,7 @@ import_tables:
 쪖	jjiebs
 쪗	jjies
 쪘	jjiess	1000
-쪙	jjieq
+쪙	jjiex
 쪚	jjiej
 쪛	jjiec
 쪜	jjiek
@@ -7934,7 +7934,7 @@ import_tables:
 쪲	jjieibs
 쪳	jjieis
 쪴	jjieiss
-쪵	jjieiq
+쪵	jjieix
 쪶	jjieij
 쪷	jjieic
 쪸	jjieik
@@ -7962,7 +7962,7 @@ import_tables:
 쫎	jjobs
 쫏	jjos	1000
 쫐	jjoss
-쫑	jjoq	1000
+쫑	jjox	1000
 쫒	jjoj
 쫓	jjoc	1000
 쫔	jjok
@@ -7990,7 +7990,7 @@ import_tables:
 쫪	jjoabs
 쫫	jjoas
 쫬	jjoass	1000
-쫭	jjoaq
+쫭	jjoax
 쫮	jjoaj
 쫯	jjoac
 쫰	jjoak
@@ -8018,7 +8018,7 @@ import_tables:
 쬆	jjoaibs
 쬇	jjoais
 쬈	jjoaiss	1000
-쬉	jjoaiq
+쬉	jjoaix
 쬊	jjoaij
 쬋	jjoaic
 쬌	jjoaik
@@ -8046,7 +8046,7 @@ import_tables:
 쬢	jjoibs
 쬣	jjois
 쬤	jjoiss
-쬥	jjoiq
+쬥	jjoix
 쬦	jjoij
 쬧	jjoic
 쬨	jjoik
@@ -8074,7 +8074,7 @@ import_tables:
 쬾	jjiobs
 쬿	jjios
 쭀	jjioss
-쭁	jjioq	1000
+쭁	jjiox	1000
 쭂	jjioj
 쭃	jjioc
 쭄	jjiok
@@ -8102,7 +8102,7 @@ import_tables:
 쭚	jjubs
 쭛	jjus
 쭜	jjuss
-쭝	jjuq	1000
+쭝	jjux	1000
 쭞	jjuj
 쭟	jjuc
 쭠	jjuk
@@ -8130,7 +8130,7 @@ import_tables:
 쭶	jjuebs
 쭷	jjues
 쭸	jjuess	1000
-쭹	jjueq	1000
+쭹	jjuex	1000
 쭺	jjuej
 쭻	jjuec
 쭼	jjuek
@@ -8158,7 +8158,7 @@ import_tables:
 쮒	jjueibs
 쮓	jjueis
 쮔	jjueiss
-쮕	jjueiq
+쮕	jjueix
 쮖	jjueij
 쮗	jjueic
 쮘	jjueik
@@ -8186,7 +8186,7 @@ import_tables:
 쮮	jjuibs
 쮯	jjuis
 쮰	jjuiss
-쮱	jjuiq
+쮱	jjuix
 쮲	jjuij
 쮳	jjuic
 쮴	jjuik
@@ -8214,69 +8214,69 @@ import_tables:
 쯊	jjiubs
 쯋	jjius
 쯌	jjiuss
-쯍	jjiuq
+쯍	jjiux
 쯎	jjiuj
 쯏	jjiuc
 쯐	jjiuk
 쯑	jjiut
 쯒	jjiup
 쯓	jjiuh
-쯔	jjy	1000
-쯕	jjyg
-쯖	jjygg
-쯗	jjygs
-쯘	jjyn
-쯙	jjynj
-쯚	jjynh
-쯛	jjyd
-쯜	jjyl
-쯝	jjylg
-쯞	jjylm
-쯟	jjylb
-쯠	jjyls
-쯡	jjylt
-쯢	jjylp
-쯣	jjylh
-쯤	jjym	1000
-쯥	jjyb
-쯦	jjybs
-쯧	jjys	1000
-쯨	jjyss
-쯩	jjyq	1000
-쯪	jjyj
-쯫	jjyc
-쯬	jjyk
-쯭	jjyt
-쯮	jjyp
-쯯	jjyh
-쯰	jjyi
-쯱	jjyig
-쯲	jjyigg
-쯳	jjyigs
-쯴	jjyin
-쯵	jjyinj
-쯶	jjyinh
-쯷	jjyid
-쯸	jjyil
-쯹	jjyilg
-쯺	jjyilm
-쯻	jjyilb
-쯼	jjyils
-쯽	jjyilt
-쯾	jjyilp
-쯿	jjyilh
-찀	jjyim
-찁	jjyib
-찂	jjyibs
-찃	jjyis
-찄	jjyiss
-찅	jjyiq
-찆	jjyij
-찇	jjyic
-찈	jjyik
-찉	jjyit
-찊	jjyip
-찋	jjyih
+쯔	jjw	1000
+쯕	jjwg
+쯖	jjwgg
+쯗	jjwgs
+쯘	jjwn
+쯙	jjwnj
+쯚	jjwnh
+쯛	jjwd
+쯜	jjwl
+쯝	jjwlg
+쯞	jjwlm
+쯟	jjwlb
+쯠	jjwls
+쯡	jjwlt
+쯢	jjwlp
+쯣	jjwlh
+쯤	jjwm	1000
+쯥	jjwb
+쯦	jjwbs
+쯧	jjws	1000
+쯨	jjwss
+쯩	jjwx	1000
+쯪	jjwj
+쯫	jjwc
+쯬	jjwk
+쯭	jjwt
+쯮	jjwp
+쯯	jjwh
+쯰	jjwi
+쯱	jjwig
+쯲	jjwigg
+쯳	jjwigs
+쯴	jjwin
+쯵	jjwinj
+쯶	jjwinh
+쯷	jjwid
+쯸	jjwil
+쯹	jjwilg
+쯺	jjwilm
+쯻	jjwilb
+쯼	jjwils
+쯽	jjwilt
+쯾	jjwilp
+쯿	jjwilh
+찀	jjwim
+찁	jjwib
+찂	jjwibs
+찃	jjwis
+찄	jjwiss
+찅	jjwix
+찆	jjwij
+찇	jjwic
+찈	jjwik
+찉	jjwit
+찊	jjwip
+찋	jjwih
 찌	jji	1000
 찍	jjig	1000
 찎	jjigg
@@ -8298,7 +8298,7 @@ import_tables:
 찞	jjibs
 찟	jjis
 찠	jjiss
-찡	jjiq	1000
+찡	jjix	1000
 찢	jjij	1000
 찣	jjic
 찤	jjik
@@ -8327,7 +8327,7 @@ import_tables:
 찺	cabs
 찻	cas	1000
 찼	cass	1000
-창	caq	1000
+창	cax	1000
 찾	caj	1000
 찿	cac
 챀	cak
@@ -8355,7 +8355,7 @@ import_tables:
 챖	caibs
 챗	cais	1000
 챘	caiss	1000
-챙	caiq	1000
+챙	caix	1000
 챚	caij
 챛	caic
 챜	caik
@@ -8383,7 +8383,7 @@ import_tables:
 챲	ciabs
 챳	cias
 챴	ciass
-챵	ciaq	1000
+챵	ciax	1000
 챶	ciaj
 챷	ciac
 챸	ciak
@@ -8411,7 +8411,7 @@ import_tables:
 첎	ciaibs
 첏	ciais
 첐	ciaiss
-첑	ciaiq
+첑	ciaix
 첒	ciaij
 첓	ciaic
 첔	ciaik
@@ -8439,7 +8439,7 @@ import_tables:
 첪	cebs
 첫	ces	1000
 첬	cess	1000
-청	ceq	1000
+청	cex	1000
 첮	cej
 첯	cec
 첰	cek
@@ -8467,7 +8467,7 @@ import_tables:
 쳆	ceibs
 쳇	ceis	1000
 쳈	ceiss
-쳉	ceiq	1000
+쳉	ceix	1000
 쳊	ceij
 쳋	ceic
 쳌	ceik
@@ -8495,7 +8495,7 @@ import_tables:
 쳢	ciebs
 쳣	cies
 쳤	ciess	1000
-쳥	cieq
+쳥	ciex
 쳦	ciej
 쳧	ciec
 쳨	ciek
@@ -8523,7 +8523,7 @@ import_tables:
 쳾	cieibs
 쳿	cieis
 촀	cieiss
-촁	cieiq	1000
+촁	cieix	1000
 촂	cieij
 촃	cieic
 촄	cieik
@@ -8551,7 +8551,7 @@ import_tables:
 촚	cobs
 촛	cos	1000
 촜	coss
-총	coq	1000
+총	cox	1000
 촞	coj
 촟	coc
 촠	cok
@@ -8579,7 +8579,7 @@ import_tables:
 촶	coabs
 촷	coas
 촸	coass
-촹	coaq	1000
+촹	coax	1000
 촺	coaj
 촻	coac
 촼	coak
@@ -8607,7 +8607,7 @@ import_tables:
 쵒	coaibs
 쵓	coais
 쵔	coaiss
-쵕	coaiq
+쵕	coaix
 쵖	coaij
 쵗	coaic
 쵘	coaik
@@ -8635,7 +8635,7 @@ import_tables:
 쵮	coibs
 쵯	cois	1000
 쵰	coiss
-쵱	coiq	1000
+쵱	coix	1000
 쵲	coij
 쵳	coic
 쵴	coik
@@ -8663,7 +8663,7 @@ import_tables:
 춊	ciobs
 춋	cios
 춌	cioss
-춍	cioq
+춍	ciox
 춎	cioj
 춏	cioc
 춐	ciok
@@ -8691,7 +8691,7 @@ import_tables:
 춦	cubs
 춧	cus	1000
 춨	cuss
-충	cuq	1000
+충	cux	1000
 춪	cuj
 춫	cuc
 춬	cuk
@@ -8719,7 +8719,7 @@ import_tables:
 췂	cuebs
 췃	cues
 췄	cuess	1000
-췅	cueq
+췅	cuex
 췆	cuej
 췇	cuec
 췈	cuek
@@ -8747,7 +8747,7 @@ import_tables:
 췞	cueibs
 췟	cueis
 췠	cueiss
-췡	cueiq
+췡	cueix
 췢	cueij
 췣	cueic
 췤	cueik
@@ -8775,7 +8775,7 @@ import_tables:
 췺	cuibs
 췻	cuis	1000
 췼	cuiss
-췽	cuiq	1000
+췽	cuix	1000
 췾	cuij
 췿	cuic
 츀	cuik
@@ -8803,69 +8803,69 @@ import_tables:
 츖	ciubs
 츗	cius
 츘	ciuss
-츙	ciuq	1000
+츙	ciux	1000
 츚	ciuj
 츛	ciuc
 츜	ciuk
 츝	ciut
 츞	ciup
 츟	ciuh
-츠	cy	1000
-측	cyg	1000
-츢	cygg
-츣	cygs
-츤	cyn	1000
-츥	cynj
-츦	cynh
-츧	cyd
-츨	cyl	1000
-츩	cylg
-츪	cylm
-츫	cylb
-츬	cyls
-츭	cylt
-츮	cylp
-츯	cylh
-츰	cym	1000
-츱	cyb	1000
-츲	cybs
-츳	cys	1000
-츴	cyss
-층	cyq	1000
-츶	cyj
-츷	cyc
-츸	cyk
-츹	cyt
-츺	cyp
-츻	cyh
-츼	cyi
-츽	cyig
-츾	cyigg
-츿	cyigs
-칀	cyin
-칁	cyinj
-칂	cyinh
-칃	cyid
-칄	cyil
-칅	cyilg
-칆	cyilm
-칇	cyilb
-칈	cyils
-칉	cyilt
-칊	cyilp
-칋	cyilh
-칌	cyim
-칍	cyib
-칎	cyibs
-칏	cyis
-칐	cyiss
-칑	cyiq
-칒	cyij
-칓	cyic
-칔	cyik
-칕	cyit
-칖	cyip
-칗	cyih
+츠	cw	1000
+측	cwg	1000
+츢	cwgg
+츣	cwgs
+츤	cwn	1000
+츥	cwnj
+츦	cwnh
+츧	cwd
+츨	cwl	1000
+츩	cwlg
+츪	cwlm
+츫	cwlb
+츬	cwls
+츭	cwlt
+츮	cwlp
+츯	cwlh
+츰	cwm	1000
+츱	cwb	1000
+츲	cwbs
+츳	cws	1000
+츴	cwss
+층	cwx	1000
+츶	cwj
+츷	cwc
+츸	cwk
+츹	cwt
+츺	cwp
+츻	cwh
+츼	cwi
+츽	cwig
+츾	cwigg
+츿	cwigs
+칀	cwin
+칁	cwinj
+칂	cwinh
+칃	cwid
+칄	cwil
+칅	cwilg
+칆	cwilm
+칇	cwilb
+칈	cwils
+칉	cwilt
+칊	cwilp
+칋	cwilh
+칌	cwim
+칍	cwib
+칎	cwibs
+칏	cwis
+칐	cwiss
+칑	cwix
+칒	cwij
+칓	cwic
+칔	cwik
+칕	cwit
+칖	cwip
+칗	cwih
 치	ci	1000
 칙	cig	1000
 칚	cigg
@@ -8887,7 +8887,7 @@ import_tables:
 칪	cibs
 칫	cis	1000
 칬	ciss
-칭	ciq	1000
+칭	cix	1000
 칮	cij
 칯	cic
 칰	cik
@@ -8916,7 +8916,7 @@ import_tables:
 캆	kabs
 캇	kas	1000
 캈	kass
-캉	kaq	1000
+캉	kax	1000
 캊	kaj
 캋	kac
 캌	kak
@@ -8944,7 +8944,7 @@ import_tables:
 캢	kaibs
 캣	kais	1000
 캤	kaiss	1000
-캥	kaiq	1000
+캥	kaix	1000
 캦	kaij
 캧	kaic
 캨	kaik
@@ -8972,7 +8972,7 @@ import_tables:
 캾	kiabs
 캿	kias
 컀	kiass
-컁	kiaq	1000
+컁	kiax	1000
 컂	kiaj
 컃	kiac
 컄	kiak
@@ -9000,7 +9000,7 @@ import_tables:
 컚	kiaibs
 컛	kiais
 컜	kiaiss
-컝	kiaiq
+컝	kiaix
 컞	kiaij
 컟	kiaic
 컠	kiaik
@@ -9028,7 +9028,7 @@ import_tables:
 컶	kebs
 컷	kes	1000
 컸	kess	1000
-컹	keq	1000
+컹	kex	1000
 컺	kej
 컻	kec
 컼	kek
@@ -9056,7 +9056,7 @@ import_tables:
 켒	keibs
 켓	keis	1000
 켔	keiss
-켕	keiq	1000
+켕	keix	1000
 켖	keij
 켗	keic
 켘	keik
@@ -9084,7 +9084,7 @@ import_tables:
 켮	kiebs
 켯	kies	1000
 켰	kiess	1000
-켱	kieq	1000
+켱	kiex	1000
 켲	kiej
 켳	kiec
 켴	kiek
@@ -9112,7 +9112,7 @@ import_tables:
 콊	kieibs
 콋	kieis
 콌	kieiss
-콍	kieiq
+콍	kieix
 콎	kieij
 콏	kieic
 콐	kieik
@@ -9140,7 +9140,7 @@ import_tables:
 콦	kobs
 콧	kos	1000
 콨	koss
-콩	koq	1000
+콩	kox	1000
 콪	koj
 콫	koc
 콬	kok
@@ -9168,7 +9168,7 @@ import_tables:
 쾂	koabs
 쾃	koas
 쾄	koass
-쾅	koaq	1000
+쾅	koax	1000
 쾆	koaj
 쾇	koac
 쾈	koak
@@ -9196,7 +9196,7 @@ import_tables:
 쾞	koaibs
 쾟	koais
 쾠	koaiss
-쾡	koaiq	1000
+쾡	koaix	1000
 쾢	koaij
 쾣	koaic
 쾤	koaik
@@ -9224,7 +9224,7 @@ import_tables:
 쾺	koibs
 쾻	kois
 쾼	koiss
-쾽	koiq
+쾽	koix
 쾾	koij
 쾿	koic
 쿀	koik
@@ -9252,7 +9252,7 @@ import_tables:
 쿖	kiobs
 쿗	kios
 쿘	kioss
-쿙	kioq
+쿙	kiox
 쿚	kioj
 쿛	kioc
 쿜	kiok
@@ -9280,7 +9280,7 @@ import_tables:
 쿲	kubs
 쿳	kus	1000
 쿴	kuss
-쿵	kuq	1000
+쿵	kux	1000
 쿶	kuj
 쿷	kuc
 쿸	kuk
@@ -9308,7 +9308,7 @@ import_tables:
 퀎	kuebs
 퀏	kues
 퀐	kuess
-퀑	kueq	1000
+퀑	kuex	1000
 퀒	kuej
 퀓	kuec
 퀔	kuek
@@ -9336,7 +9336,7 @@ import_tables:
 퀪	kueibs
 퀫	kueis
 퀬	kueiss
-퀭	kueiq	1000
+퀭	kueix	1000
 퀮	kueij
 퀯	kueic
 퀰	kueik
@@ -9364,7 +9364,7 @@ import_tables:
 큆	kuibs
 큇	kuis	1000
 큈	kuiss
-큉	kuiq	1000
+큉	kuix	1000
 큊	kuij
 큋	kuic
 큌	kuik
@@ -9392,69 +9392,69 @@ import_tables:
 큢	kiubs
 큣	kius
 큤	kiuss
-큥	kiuq
+큥	kiux
 큦	kiuj
 큧	kiuc
 큨	kiuk
 큩	kiut
 큪	kiup
 큫	kiuh
-크	ky	1000
-큭	kyg	1000
-큮	kygg
-큯	kygs
-큰	kyn	1000
-큱	kynj
-큲	kynh
-큳	kyd
-클	kyl	1000
-큵	kylg
-큶	kylm
-큷	kylb
-큸	kyls
-큹	kylt
-큺	kylp
-큻	kylh
-큼	kym	1000
-큽	kyb	1000
-큾	kybs
-큿	kys
-킀	kyss
-킁	kyq	1000
-킂	kyj
-킃	kyc
-킄	kyk
-킅	kyt
-킆	kyp
-킇	kyh
-킈	kyi
-킉	kyig
-킊	kyigg
-킋	kyigs
-킌	kyin
-킍	kyinj
-킎	kyinh
-킏	kyid
-킐	kyil
-킑	kyilg
-킒	kyilm
-킓	kyilb
-킔	kyils
-킕	kyilt
-킖	kyilp
-킗	kyilh
-킘	kyim
-킙	kyib
-킚	kyibs
-킛	kyis
-킜	kyiss
-킝	kyiq
-킞	kyij
-킟	kyic
-킠	kyik
-킡	kyit
-킢	kyip
-킣	kyih
+크	kw	1000
+큭	kwg	1000
+큮	kwgg
+큯	kwgs
+큰	kwn	1000
+큱	kwnj
+큲	kwnh
+큳	kwd
+클	kwl	1000
+큵	kwlg
+큶	kwlm
+큷	kwlb
+큸	kwls
+큹	kwlt
+큺	kwlp
+큻	kwlh
+큼	kwm	1000
+큽	kwb	1000
+큾	kwbs
+큿	kws
+킀	kwss
+킁	kwx	1000
+킂	kwj
+킃	kwc
+킄	kwk
+킅	kwt
+킆	kwp
+킇	kwh
+킈	kwi
+킉	kwig
+킊	kwigg
+킋	kwigs
+킌	kwin
+킍	kwinj
+킎	kwinh
+킏	kwid
+킐	kwil
+킑	kwilg
+킒	kwilm
+킓	kwilb
+킔	kwils
+킕	kwilt
+킖	kwilp
+킗	kwilh
+킘	kwim
+킙	kwib
+킚	kwibs
+킛	kwis
+킜	kwiss
+킝	kwix
+킞	kwij
+킟	kwic
+킠	kwik
+킡	kwit
+킢	kwip
+킣	kwih
 키	ki	1000
 킥	kig	1000
 킦	kigg
@@ -9476,7 +9476,7 @@ import_tables:
 킶	kibs
 킷	kis	1000
 킸	kiss
-킹	kiq	1000
+킹	kix	1000
 킺	kij
 킻	kic
 킼	kik
@@ -9505,7 +9505,7 @@ import_tables:
 탒	tabs
 탓	tas	1000
 탔	tass	1000
-탕	taq	1000
+탕	tax	1000
 탖	taj
 탗	tac
 탘	tak
@@ -9533,7 +9533,7 @@ import_tables:
 탮	taibs
 탯	tais	1000
 탰	taiss	1000
-탱	taiq	1000
+탱	taix	1000
 탲	taij
 탳	taic
 탴	taik
@@ -9561,7 +9561,7 @@ import_tables:
 턊	tiabs
 턋	tias
 턌	tiass
-턍	tiaq	1000
+턍	tiax	1000
 턎	tiaj
 턏	tiac
 턐	tiak
@@ -9589,7 +9589,7 @@ import_tables:
 턦	tiaibs
 턧	tiais
 턨	tiaiss
-턩	tiaiq
+턩	tiaix
 턪	tiaij
 턫	tiaic
 턬	tiaik
@@ -9617,7 +9617,7 @@ import_tables:
 텂	tebs
 텃	tes	1000
 텄	tess	1000
-텅	teq	1000
+텅	tex	1000
 텆	tej
 텇	tec
 텈	tek
@@ -9645,7 +9645,7 @@ import_tables:
 텞	teibs
 텟	teis	1000
 텠	teiss
-텡	teiq	1000
+텡	teix	1000
 텢	teij
 텣	teic
 텤	teik
@@ -9673,7 +9673,7 @@ import_tables:
 텺	tiebs
 텻	ties
 텼	tiess	1000
-텽	tieq
+텽	tiex
 텾	tiej
 텿	tiec
 톀	tiek
@@ -9701,7 +9701,7 @@ import_tables:
 톖	tieibs
 톗	tieis
 톘	tieiss
-톙	tieiq
+톙	tieix
 톚	tieij
 톛	tieic
 톜	tieik
@@ -9729,7 +9729,7 @@ import_tables:
 톲	tobs
 톳	tos	1000
 톴	toss
-통	toq	1000
+통	tox	1000
 톶	toj
 톷	toc
 톸	tok
@@ -9757,7 +9757,7 @@ import_tables:
 퇎	toabs
 퇏	toas
 퇐	toass
-퇑	toaq
+퇑	toax
 퇒	toaj
 퇓	toac
 퇔	toak
@@ -9785,7 +9785,7 @@ import_tables:
 퇪	toaibs
 퇫	toais
 퇬	toaiss
-퇭	toaiq
+퇭	toaix
 퇮	toaij
 퇯	toaic
 퇰	toaik
@@ -9813,7 +9813,7 @@ import_tables:
 툆	toibs
 툇	tois	1000
 툈	toiss
-툉	toiq	1000
+툉	toix	1000
 툊	toij
 툋	toic
 툌	toik
@@ -9841,7 +9841,7 @@ import_tables:
 툢	tiobs
 툣	tios
 툤	tioss
-툥	tioq
+툥	tiox
 툦	tioj
 툧	tioc
 툨	tiok
@@ -9869,7 +9869,7 @@ import_tables:
 툾	tubs
 툿	tus	1000
 퉀	tuss
-퉁	tuq	1000
+퉁	tux	1000
 퉂	tuj
 퉃	tuc
 퉄	tuk
@@ -9897,7 +9897,7 @@ import_tables:
 퉚	tuebs
 퉛	tues
 퉜	tuess	1000
-퉝	tueq
+퉝	tuex
 퉞	tuej
 퉟	tuec
 퉠	tuek
@@ -9925,7 +9925,7 @@ import_tables:
 퉶	tueibs
 퉷	tueis
 퉸	tueiss
-퉹	tueiq
+퉹	tueix
 퉺	tueij
 퉻	tueic
 퉼	tueik
@@ -9953,7 +9953,7 @@ import_tables:
 튒	tuibs
 튓	tuis
 튔	tuiss
-튕	tuiq	1000
+튕	tuix	1000
 튖	tuij
 튗	tuic
 튘	tuik
@@ -9981,69 +9981,69 @@ import_tables:
 튮	tiubs
 튯	tius
 튰	tiuss
-튱	tiuq	1000
+튱	tiux	1000
 튲	tiuj
 튳	tiuc
 튴	tiuk
 튵	tiut
 튶	tiup
 튷	tiuh
-트	ty	1000
-특	tyg	1000
-튺	tygg
-튻	tygs
-튼	tyn	1000
-튽	tynj
-튾	tynh
-튿	tyd	1000
-틀	tyl	1000
-틁	tylg
-틂	tylm	1000
-틃	tylb
-틄	tyls
-틅	tylt
-틆	tylp
-틇	tylh
-틈	tym	1000
-틉	tyb	1000
-틊	tybs
-틋	tys	1000
-틌	tyss
-틍	tyq
-틎	tyj
-틏	tyc
-틐	tyk
-틑	tyt
-틒	typ
-틓	tyh
-틔	tyi	1000
-틕	tyig
-틖	tyigg
-틗	tyigs
-틘	tyin	1000
-틙	tyinj
-틚	tyinh
-틛	tyid
-틜	tyil	1000
-틝	tyilg
-틞	tyilm
-틟	tyilb
-틠	tyils
-틡	tyilt
-틢	tyilp
-틣	tyilh
-틤	tyim	1000
-틥	tyib	1000
-틦	tyibs
-틧	tyis
-틨	tyiss
-틩	tyiq
-틪	tyij
-틫	tyic
-틬	tyik
-틭	tyit
-틮	tyip
-틯	tyih
+트	tw	1000
+특	twg	1000
+튺	twgg
+튻	twgs
+튼	twn	1000
+튽	twnj
+튾	twnh
+튿	twd	1000
+틀	twl	1000
+틁	twlg
+틂	twlm	1000
+틃	twlb
+틄	twls
+틅	twlt
+틆	twlp
+틇	twlh
+틈	twm	1000
+틉	twb	1000
+틊	twbs
+틋	tws	1000
+틌	twss
+틍	twx
+틎	twj
+틏	twc
+틐	twk
+틑	twt
+틒	twp
+틓	twh
+틔	twi	1000
+틕	twig
+틖	twigg
+틗	twigs
+틘	twin	1000
+틙	twinj
+틚	twinh
+틛	twid
+틜	twil	1000
+틝	twilg
+틞	twilm
+틟	twilb
+틠	twils
+틡	twilt
+틢	twilp
+틣	twilh
+틤	twim	1000
+틥	twib	1000
+틦	twibs
+틧	twis
+틨	twiss
+틩	twix
+틪	twij
+틫	twic
+틬	twik
+틭	twit
+틮	twip
+틯	twih
 티	ti	1000
 틱	tig	1000
 틲	tigg
@@ -10065,7 +10065,7 @@ import_tables:
 팂	tibs
 팃	tis	1000
 팄	tiss
-팅	tiq	1000
+팅	tix	1000
 팆	tij
 팇	tic
 팈	tik
@@ -10094,7 +10094,7 @@ import_tables:
 팞	pabs
 팟	pas	1000
 팠	pass	1000
-팡	paq	1000
+팡	pax	1000
 팢	paj
 팣	pac
 팤	pak
@@ -10122,7 +10122,7 @@ import_tables:
 팺	paibs
 팻	pais	1000
 팼	paiss	1000
-팽	paiq	1000
+팽	paix	1000
 팾	paij
 팿	paic
 퍀	paik
@@ -10150,7 +10150,7 @@ import_tables:
 퍖	piabs
 퍗	pias
 퍘	piass
-퍙	piaq
+퍙	piax
 퍚	piaj
 퍛	piac
 퍜	piak
@@ -10178,7 +10178,7 @@ import_tables:
 퍲	piaibs
 퍳	piais
 퍴	piaiss
-퍵	piaiq
+퍵	piaix
 퍶	piaij
 퍷	piaic
 퍸	piaik
@@ -10206,7 +10206,7 @@ import_tables:
 펎	pebs
 펏	pes	1000
 펐	pess	1000
-펑	peq	1000
+펑	pex	1000
 펒	pej
 펓	pec
 펔	pek
@@ -10234,7 +10234,7 @@ import_tables:
 펪	peibs
 펫	peis	1000
 펬	peiss
-펭	peiq	1000
+펭	peix	1000
 펮	peij
 펯	peic
 펰	peik
@@ -10262,7 +10262,7 @@ import_tables:
 폆	piebs
 폇	pies
 폈	piess	1000
-평	pieq	1000
+평	piex	1000
 폊	piej
 폋	piec
 폌	piek
@@ -10290,7 +10290,7 @@ import_tables:
 폢	pieibs
 폣	pieis	1000
 폤	pieiss
-폥	pieiq
+폥	pieix
 폦	pieij
 폧	pieic
 폨	pieik
@@ -10318,7 +10318,7 @@ import_tables:
 폾	pobs
 폿	pos	1000
 퐀	poss
-퐁	poq	1000
+퐁	pox	1000
 퐂	poj
 퐃	poc
 퐄	pok
@@ -10346,7 +10346,7 @@ import_tables:
 퐚	poabs
 퐛	poas
 퐜	poass
-퐝	poaq	1000
+퐝	poax	1000
 퐞	poaj
 퐟	poac
 퐠	poak
@@ -10374,7 +10374,7 @@ import_tables:
 퐶	poaibs
 퐷	poais
 퐸	poaiss
-퐹	poaiq
+퐹	poaix
 퐺	poaij
 퐻	poaic
 퐼	poaik
@@ -10402,7 +10402,7 @@ import_tables:
 푒	poibs
 푓	pois
 푔	poiss
-푕	poiq
+푕	poix
 푖	poij
 푗	poic
 푘	poik
@@ -10430,7 +10430,7 @@ import_tables:
 푮	piobs
 푯	pios	1000
 푰	pioss
-푱	pioq
+푱	piox
 푲	pioj
 푳	pioc
 푴	piok
@@ -10458,7 +10458,7 @@ import_tables:
 풊	pubs
 풋	pus	1000
 풌	puss
-풍	puq	1000
+풍	pux	1000
 풎	puj
 풏	puc
 풐	puk
@@ -10486,7 +10486,7 @@ import_tables:
 풦	puebs
 풧	pues
 풨	puess
-풩	pueq	1000
+풩	puex	1000
 풪	puej
 풫	puec
 풬	puek
@@ -10514,7 +10514,7 @@ import_tables:
 퓂	pueibs
 퓃	pueis
 퓄	pueiss
-퓅	pueiq
+퓅	pueix
 퓆	pueij
 퓇	pueic
 퓈	pueik
@@ -10542,7 +10542,7 @@ import_tables:
 퓞	puibs
 퓟	puis	1000
 퓠	puiss
-퓡	puiq
+퓡	puix
 퓢	puij
 퓣	puic
 퓤	puik
@@ -10570,69 +10570,69 @@ import_tables:
 퓺	piubs
 퓻	pius	1000
 퓼	piuss
-퓽	piuq	1000
+퓽	piux	1000
 퓾	piuj
 퓿	piuc
 픀	piuk
 픁	piut
 픂	piup
 픃	piuh
-프	py	1000
-픅	pyg
-픆	pygg
-픇	pygs
-픈	pyn	1000
-픉	pynj
-픊	pynh
-픋	pyd
-플	pyl	1000
-픍	pylg
-픎	pylm
-픏	pylb
-픐	pyls
-픑	pylt
-픒	pylp
-픓	pylh
-픔	pym	1000
-픕	pyb	1000
-픖	pybs
-픗	pys	1000
-픘	pyss
-픙	pyq
-픚	pyj
-픛	pyc
-픜	pyk
-픝	pyt
-픞	pyp
-픟	pyh
-픠	pyi
-픡	pyig
-픢	pyigg
-픣	pyigs
-픤	pyin
-픥	pyinj
-픦	pyinh
-픧	pyid
-픨	pyil
-픩	pyilg
-픪	pyilm
-픫	pyilb
-픬	pyils
-픭	pyilt
-픮	pyilp
-픯	pyilh
-픰	pyim
-픱	pyib
-픲	pyibs
-픳	pyis
-픴	pyiss
-픵	pyiq
-픶	pyij
-픷	pyic
-픸	pyik
-픹	pyit
-픺	pyip
-픻	pyih
+프	pw	1000
+픅	pwg
+픆	pwgg
+픇	pwgs
+픈	pwn	1000
+픉	pwnj
+픊	pwnh
+픋	pwd
+플	pwl	1000
+픍	pwlg
+픎	pwlm
+픏	pwlb
+픐	pwls
+픑	pwlt
+픒	pwlp
+픓	pwlh
+픔	pwm	1000
+픕	pwb	1000
+픖	pwbs
+픗	pws	1000
+픘	pwss
+픙	pwx
+픚	pwj
+픛	pwc
+픜	pwk
+픝	pwt
+픞	pwp
+픟	pwh
+픠	pwi
+픡	pwig
+픢	pwigg
+픣	pwigs
+픤	pwin
+픥	pwinj
+픦	pwinh
+픧	pwid
+픨	pwil
+픩	pwilg
+픪	pwilm
+픫	pwilb
+픬	pwils
+픭	pwilt
+픮	pwilp
+픯	pwilh
+픰	pwim
+픱	pwib
+픲	pwibs
+픳	pwis
+픴	pwiss
+픵	pwix
+픶	pwij
+픷	pwic
+픸	pwik
+픹	pwit
+픺	pwip
+픻	pwih
 피	pi	1000
 픽	pig	1000
 픾	pigg
@@ -10654,14 +10654,14 @@ import_tables:
 핎	pibs
 핏	pis	1000
 핐	piss
-핑	piq	1000
+핑	pix	1000
 핒	pij
 핓	pic
 핔	pik
 핕	pit
 핖	pip
 핗	pih
-ㆄ	pq	0%
+ㆄ	px	0%
 ㅎ	h	0%
 하	ha	1000
 학	hag	1000
@@ -10684,7 +10684,7 @@ import_tables:
 핪	habs
 핫	has	1000
 핬	hass
-항	haq	1000
+항	hax	1000
 핮	haj
 핯	hac
 핰	hak
@@ -10712,7 +10712,7 @@ import_tables:
 햆	haibs
 햇	hais	1000
 했	haiss	1000
-행	haiq	1000
+행	haix	1000
 햊	haij
 햋	haic
 햌	haik
@@ -10740,7 +10740,7 @@ import_tables:
 햢	hiabs
 햣	hias
 햤	hiass
-향	hiaq	1000
+향	hiax	1000
 햦	hiaj
 햧	hiac
 햨	hiak
@@ -10768,7 +10768,7 @@ import_tables:
 햾	hiaibs
 햿	hiais
 헀	hiaiss
-헁	hiaiq
+헁	hiaix
 헂	hiaij
 헃	hiaic
 헄	hiaik
@@ -10796,7 +10796,7 @@ import_tables:
 헚	hebs
 헛	hes	1000
 헜	hess
-헝	heq	1000
+헝	hex	1000
 헞	hej
 헟	hec
 헠	hek
@@ -10824,7 +10824,7 @@ import_tables:
 헶	heibs
 헷	heis	1000
 헸	heiss
-헹	heiq	1000
+헹	heix	1000
 헺	heij
 헻	heic
 헼	heik
@@ -10852,7 +10852,7 @@ import_tables:
 혒	hiebs
 혓	hies	1000
 혔	hiess	1000
-형	hieq	1000
+형	hiex	1000
 혖	hiej
 혗	hiec
 혘	hiek
@@ -10880,7 +10880,7 @@ import_tables:
 혮	hieibs
 혯	hieis
 혰	hieiss
-혱	hieiq
+혱	hieix
 혲	hieij
 혳	hieic
 혴	hieik
@@ -10908,7 +10908,7 @@ import_tables:
 홊	hobs
 홋	hos	1000
 홌	hoss
-홍	hoq	1000
+홍	hox	1000
 홎	hoj
 홏	hoc
 홐	hok
@@ -10936,7 +10936,7 @@ import_tables:
 홦	hoabs
 홧	hoas	1000
 홨	hoass
-황	hoaq	1000
+황	hoax	1000
 홪	hoaj
 홫	hoac
 홬	hoak
@@ -10964,7 +10964,7 @@ import_tables:
 횂	hoaibs
 횃	hoais	1000
 횄	hoaiss
-횅	hoaiq	1000
+횅	hoaix	1000
 횆	hoaij
 횇	hoaic
 횈	hoaik
@@ -10992,7 +10992,7 @@ import_tables:
 횞	hoibs
 횟	hois	1000
 횠	hoiss
-횡	hoiq	1000
+횡	hoix	1000
 횢	hoij
 횣	hoic
 횤	hoik
@@ -11020,7 +11020,7 @@ import_tables:
 횺	hiobs
 횻	hios	1000
 횼	hioss
-횽	hioq
+횽	hiox
 횾	hioj
 횿	hioc
 훀	hiok
@@ -11048,7 +11048,7 @@ import_tables:
 훖	hubs
 훗	hus	1000
 훘	huss
-훙	huq	1000
+훙	hux	1000
 훚	huj
 훛	huc
 훜	huk
@@ -11076,7 +11076,7 @@ import_tables:
 훲	huebs
 훳	hues
 훴	huess
-훵	hueq	1000
+훵	huex	1000
 훶	huej
 훷	huec
 훸	huek
@@ -11104,7 +11104,7 @@ import_tables:
 휎	hueibs
 휏	hueis
 휐	hueiss
-휑	hueiq	1000
+휑	hueix	1000
 휒	hueij
 휓	hueic
 휔	hueik
@@ -11132,7 +11132,7 @@ import_tables:
 휪	huibs
 휫	huis	1000
 휬	huiss
-휭	huiq	1000
+휭	huix	1000
 휮	huij
 휯	huic
 휰	huik
@@ -11160,69 +11160,69 @@ import_tables:
 흆	hiubs
 흇	hius	1000
 흈	hiuss
-흉	hiuq	1000
+흉	hiux	1000
 흊	hiuj
 흋	hiuc
 흌	hiuk
 흍	hiut
 흎	hiup
 흏	hiuh
-흐	hy	1000
-흑	hyg	1000
-흒	hygg
-흓	hygs
-흔	hyn	1000
-흕	hynj
-흖	hynh	1000
-흗	hyd	1000
-흘	hyl	1000
-흙	hylg	1000
-흚	hylm
-흛	hylb
-흜	hyls
-흝	hylt
-흞	hylp
-흟	hylh
-흠	hym	1000
-흡	hyb	1000
-흢	hybs
-흣	hys	1000
-흤	hyss
-흥	hyq	1000
-흦	hyj
-흧	hyc
-흨	hyk
-흩	hyt	1000
-흪	hyp
-흫	hyh
-희	hyi	1000
-흭	hyig
-흮	hyigg
-흯	hyigs
-흰	hyin	1000
-흱	hyinj
-흲	hyinh
-흳	hyid
-흴	hyil	1000
-흵	hyilg
-흶	hyilm
-흷	hyilb
-흸	hyils
-흹	hyilt
-흺	hyilp
-흻	hyilh
-흼	hyim	1000
-흽	hyib	1000
-흾	hyibs
-흿	hyis
-힀	hyiss
-힁	hyiq	1000
-힂	hyij
-힃	hyic
-힄	hyik
-힅	hyit
-힆	hyip
-힇	hyih
+흐	hw	1000
+흑	hwg	1000
+흒	hwgg
+흓	hwgs
+흔	hwn	1000
+흕	hwnj
+흖	hwnh	1000
+흗	hwd	1000
+흘	hwl	1000
+흙	hwlg	1000
+흚	hwlm
+흛	hwlb
+흜	hwls
+흝	hwlt
+흞	hwlp
+흟	hwlh
+흠	hwm	1000
+흡	hwb	1000
+흢	hwbs
+흣	hws	1000
+흤	hwss
+흥	hwx	1000
+흦	hwj
+흧	hwc
+흨	hwk
+흩	hwt	1000
+흪	hwp
+흫	hwh
+희	hwi	1000
+흭	hwig
+흮	hwigg
+흯	hwigs
+흰	hwin	1000
+흱	hwinj
+흲	hwinh
+흳	hwid
+흴	hwil	1000
+흵	hwilg
+흶	hwilm
+흷	hwilb
+흸	hwils
+흹	hwilt
+흺	hwilp
+흻	hwilh
+흼	hwim	1000
+흽	hwib	1000
+흾	hwibs
+흿	hwis
+힀	hwiss
+힁	hwix	1000
+힂	hwij
+힃	hwic
+힄	hwik
+힅	hwit
+힆	hwip
+힇	hwih
 히	hi	1000
 힉	hig	1000
 힊	higg
@@ -11244,7 +11244,7 @@ import_tables:
 힚	hibs
 힛	his	1000
 힜	hiss
-힝	hiq	1000
+힝	hix	1000
 힞	hij
 힟	hic
 힠	hik
@@ -11277,8 +11277,8 @@ import_tables:
 ㆊ	iuie	0%
 ㆋ	iuiei	0%
 ㆌ	iui	0%
-ㅡ	y	0%
-ㅢ	yi	0%
+ㅡ	w	0%
+ㅢ	wi	0%
 ㅣ	i	0%
 ㆍ	v	0%
 ㆎ	vi	0%

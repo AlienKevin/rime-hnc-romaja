@@ -3,13 +3,13 @@
 # encoding: utf-8
 
 schema:
-  schema_id: hangyl_hanja
-  name: 한글・漢字 ₀.₅₁
+  schema_id: hnc_hanja
+  name: 한글・漢字
   version: "0.51"
   author:
     - Patrick <ipatrickmac@me.com>
   description: |
-    朝鮮半島漢字音
+    韓語漢字音
 
 switches:
   - name: simplification
@@ -50,14 +50,10 @@ speller:
   delimiter: " '"
   algebra:
     - derive/(^|[ '])q([aeouiy])/$1$2/
-    - derive/q$/ng/
-    - derive/q/x/
 #    - derive/l/n/
 #    - derive/(^|[ '])([nl])i/$1i/
     - derive/l/r/
-    - derive/b/v/
     - derive/p/f/
-    - derive/j/z/
     - derive/u/w/
     - derive/oa/wa/
     - derive/u([ei])/w$1/
@@ -70,16 +66,13 @@ speller:
     - abbrev/(^|[ '])([gndlmbsqjcktph]).+$/$1$2/
 
 translator:
-  dictionary: hangyl_hanja
-  prism: hangyl_hanja
+  dictionary: hnc_hanja
+  prism: hnc_hanja
   spelling_hints: 9
   preedit_format:
     - xform/'/ /
-    - xform/(^|[ '])([qx])/$1/
-    - xform/([qx])/ng/
-  comment_format:
-    - xform/(^|[ '])q/$1/
-    - xform/q/ng/
+    - xform/(^|[ '])x/$1/
+    - xform/x/ng/
 
 reverse_lookup:
   dictionary: luna_pinyin
@@ -87,9 +80,6 @@ reverse_lookup:
   tips: 〔명월병음〕
   preedit_format:
     - xform/([nljqxy])v/$1ü/
-  comment_format:
-    - xform/(^|[ '])q/$1/
-    - xform/q/ng/
 
 punctuator:
   import_preset: default

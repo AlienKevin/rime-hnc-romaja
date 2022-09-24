@@ -3,20 +3,21 @@
 # encoding: utf-8
 
 schema:
-  schema_id: hangyl
-  name: 한글 ₀.₉₃
-  version: "0.93"
+  schema_id: hnc_romaja
+  name: HNC Romaja
+  version: "0.1"
   author:
+    - Kevin Li <kevinli020508@gmail.com>
     - Patrick <ipatrickmac@me.com>
     - 雪齋 <lyc20041@gmail.com>
   description: |
-    한글입력법 for Rime
-    ㄱg ㄴn ㄷd ㄹlr ㅁm ㅂbv ㅅs ㅇqx
-    ㅈjz ㅊc ㅋk ㅌt ㅍpf ㅎh
+    HNC Romaja for Rime
+    ㄱg ㄴn ㄷd ㄹl/r ㅁm ㅂb ㅅs ㅇx
+    ㅈj ㅊc ㅋk ㅌt ㅍpf ㅎh
     ㅏaㅐai ㅑia ㅒiai ㅓe ㅔei ㅕie ㅖiei
     ㅗo ㅘoa ㅙoai ㅚoi ㅛio
     ㅜu ㅝue ㅞuei ㅟui ㅠiu
-    ㅡy ㅢyi ㅣi
+    ㅡw ㅢwi ㅣi/y
 
 switches:
   - name: half_shape
@@ -55,15 +56,12 @@ speller:
   delimiter: " '"
   algebra:
     - abbrev/^([gndlmbsqjcktph]).+$/$1/
-    - derive/(^|[ '])q?([aeiouy])/$1$2/
+    - derive/(^|[ '])x?([aeiouy])/$1$2/
     - derive/'//
-    - derive/q$/ng/
-    - derive/q/x/
+    - derive/x$/ng/
     - derive/l/r/
-    - derive/b/v/
     - derive/p/f/
-    - derive/j/z/
-    - derive/u/w/
+    - derive/i/y/
     - derive/oa/wa/
     - derive/u([ei])/w$1/
     - derive/ue/wo/
@@ -71,8 +69,8 @@ speller:
     - derive/^([A-Za-z]+)\d$/$1/
 
 translator:
-  dictionary: hangyl
-  prism: hangyl
+  dictionary: hnc
+  prism: hnc
   spelling_hints: 9
   preedit_format:
     - xform/'/ /
@@ -83,7 +81,7 @@ translator:
     - xform/q/ng/
 
 reverse_lookup:
-  dictionary: hangyl_hanja
+  dictionary: hnc_hanja
   prefix: "`"
   tips: 〔漢字・한자〕
   comment_format:
