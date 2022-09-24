@@ -11251,7 +11251,7 @@ import_tables:
 힢	hip
 힣	hih
 ㆅ	hh	0%
-ㆆ	x	0%
+# ㆆ	x	0%
 ㅏ	a	0%
 ㅐ	ai	0%
 ㅑ	ia	0%
@@ -11279,8 +11279,8 @@ import_tables:
 ㅡ	w	0%
 ㅢ	wi	0%
 ㅣ	i	0%
-ㆍ	v	0%
-ㆎ	vi	0%
+# ㆍ	v	0%
+# ㆎ	vi	0%
 자집
 가가
 가가대소
