@@ -69,8 +69,8 @@ speller:
     - derive/^([A-Za-z]+)\d$/$1/
 
 translator:
-  dictionary: hnc
-  prism: hnc
+  dictionary: hnc_romaja
+  prism: hnc_romaja
   spelling_hints: 9
   preedit_format:
     - xform/'/ /

@@ -2,13 +2,12 @@
 # mim: set ts=8 sw=8 noet:
 # encoding: utf-8
 #
-# HNC Romaja
 # Patrick <ipatrickmac@gmail.com>
 # 韓文轉寫方案
 
 ---
 
-name: hnc
+name: hnc_romaja
 version: "0.13"
 sort: by_weight	#original
 use_preset_vocabulary: false
