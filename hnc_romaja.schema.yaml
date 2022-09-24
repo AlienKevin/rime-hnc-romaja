@@ -56,7 +56,7 @@ speller:
   delimiter: " '"
   algebra:
     - abbrev/^([gndlmbsqjcktph]).+$/$1/
-    - derive/(^|[ '])x?([aeiouy])/$1$2/
+    # - derive/(^|[ '])x?([aeiouy])/$1$2/
     - derive/'//
     - derive/x$/ng/
     - derive/l/r/
@@ -74,19 +74,19 @@ translator:
   spelling_hints: 9
   preedit_format:
     - xform/'/ /
-    - xform/(^|[ '])([qx])/$1/
-    - xform/([qx])/ng/
-  comment_format:
-    - xform/(^|[ '])q/$1/
-    - xform/q/ng/
+  #   - xform/(^|[ '])x/$1/
+  #   - xform/x/ng/
+  # comment_format:
+  #   - xform/(^|[ '])x/$1/
+  #   - xform/x/ng/
 
 reverse_lookup:
   dictionary: hnc_hanja
   prefix: "`"
   tips: 〔漢字・한자〕
-  comment_format:
-    - xform/(^|[ '])q/$1/
-    - xform/q/ng/
+  # comment_format:
+  #   - xform/(^|[ '])x/$1/
+  #   - xform/x/ng/
 
 punctuator:
   import_preset: default
