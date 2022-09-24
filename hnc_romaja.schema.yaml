@@ -74,19 +74,19 @@ translator:
   spelling_hints: 9
   preedit_format:
     - xform/'/ /
-  #   - xform/(^|[ '])x/$1/
-  #   - xform/x/ng/
-  # comment_format:
-  #   - xform/(^|[ '])x/$1/
-  #   - xform/x/ng/
+    - xform/(^|[ '])x/$1/
+    - xform/x/ng/
+  comment_format:
+    - xform/(^|[ '])x/$1/
+    - xform/x/ng/
 
 reverse_lookup:
   dictionary: hnc_hanja
   prefix: "`"
   tips: 〔漢字・한자〕
-  # comment_format:
-  #   - xform/(^|[ '])x/$1/
-  #   - xform/x/ng/
+  comment_format:
+    - xform/(^|[ '])x/$1/
+    - xform/x/ng/
 
 punctuator:
   import_preset: default

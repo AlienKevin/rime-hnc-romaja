@@ -74,6 +74,9 @@ translator:
     - xform/'/ /
     - xform/(^|[ '])x/$1/
     - xform/x/ng/
+  comment_format:
+    - xform/(^|[ '])x/$1/
+    - xform/x/ng/
 
 reverse_lookup:
   dictionary: luna_pinyin
