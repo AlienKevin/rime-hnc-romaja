@@ -1,0 +1,106 @@
+# Rime schema
+# vim: set sw=2 sts=2 et:
+# encoding: utf-8
+
+schema:
+  schema_id: hnc_hanja_mod
+  name: 한글・漢字 (mod)
+  version: "0.51"
+  author:
+    - Patrick <ipatrickmac@me.com>
+  description: |
+    韓語漢字音
+
+switches:
+  - name: simplification
+    states: [ 傳統, 簡化 ]
+  - name: half_shape
+    states: [ 半角, 全角 ]
+    reset: 0
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+    - fluency_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - echo_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
+  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  delimiter: " '"
+  algebra:
+    # - derive/(^|[ '])x([aeouiy])/$1$2/
+    - derive/[xf]$/ng/
+    - derive/x/f/
+#    - derive/l/n/
+#    - derive/(^|[ '])([nl])i/$1i/
+    - derive/l/r/
+    # - derive/p/f/
+    - derive/u/w/
+    - derive/oa/wa/
+    - derive/ue/we/
+    - derive/ue/wo/
+    - derive/i([aeou])/y$1/
+    - derive/^([A-Za-z]+)\d$/$1/
+    - 'derive/^(.*)-$/$1:/'
+    - 'derive/^(.*)-$/$1;/'
+    - 'derive/^(.*)<$/$1,/'
+    - abbrev/(^|[ '])([gndlmbsqjcktph]).+$/$1$2/
+
+translator:
+  dictionary: hnc_hanja
+  prism: hnc_hanja
+  spelling_hints: 9
+  preedit_format:
+    - xform/'/ /
+    - xform/(^|[ '])[xf]/$1/
+    - xform/x/ng/
+  comment_format:
+    - xform/(^|[ '])[xf]/$1/
+    - xform/x/ng/
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  tips: 〔명월병음〕
+  preedit_format:
+    - xform/([nljqxy])v/$1ü/
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+  full_shape:
+    "$" : [ ￦, ￥, "$", "€", "£", "¥", "¢", "¤" ]
+  half_shape:
+    "$" : [ ₩, "$", "€", "£", "¥", "¢", "¤" ]
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*$"
+
+abc_segmentor:
+  extra_tags:
+    #- reverse_lookup
