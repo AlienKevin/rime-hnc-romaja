@@ -169,7 +169,7 @@ translator:
     - xform/w/ᅳ/
     - xform/(^|')x/ᄋ/
     - xform/x/ᆼ/
-    - xform/'/ /
+    - xform/'//
   # comment_format:
   #   - xform/(^|[ '])[xf]/$1/
   #   - xform/x/ng/
