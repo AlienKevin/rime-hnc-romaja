@@ -131,6 +131,7 @@ translator:
     - xform/m($|')/ᆷ$1/
     - xform/m/ᄆ/
 
+    - xform/'h($|')/ㅎ/
     - xform/h($|')/ᇂ$1/
     - xform/h/ᄒ/
 
