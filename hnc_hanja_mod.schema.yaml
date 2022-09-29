@@ -45,8 +45,8 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
-  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  initials: 'zyxwvutsrqponmlkjihgfedcbaBDGSJ'
+  finals: 'zyxwvutsrqponmlkjihgfedcbaGS'
   delimiter: " '"
   algebra:
     # - derive/(^|[ '])x([aeouiy])/$1$2/
@@ -68,8 +68,8 @@ speller:
     - abbrev/(^|[ '])([gndlmbsqjcktph]).+$/$1$2/
 
 translator:
-  dictionary: hnc_hanja
-  prism: hnc_hanja
+  dictionary: hnc_hanja_mod
+  prism: hnc_hanja_mod
   spelling_hints: 9
   preedit_format:
     - xform/'/ /

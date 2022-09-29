@@ -21,6 +21,9 @@ schema:
     ㅜu ㅝue ㅞuei ㅟui ㅠiu
     ㅡw ㅢwi ㅣi/y
 
+menu:
+  page_size: 0
+
 switches:
   - name: half_shape
     states: [ 半角, 全角 ]
@@ -53,14 +56,16 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: 'zyxwvutsrqponmlkjihgfedcba'
-  initials: 'zyxwvutsrqponmlkjihgfedcba'
+  alphabet: 'zyxwvutsrqponmlkjihgfedcbaBDGSJ'
+  initials: 'zyxwvutsrqponmlkjihgfedcbaBDGSJ'
+  finals: 'zyxwvutsrqponmlkjihgfedcbaGS'
   delimiter: " '"
   algebra:
-    - abbrev/^([gndlmbsqjcktph]).+$/$1/
+    # - abbrev/^([gndlmbsqjcktph]).+$/$1/
     # - derive/(^|[ '])x?([aeiouy])/$1$2/
-    - derive/'//
-    - derive/[xf]$/ng/
+    # - derive/([^aeiou]|^)B/$1bb/
+    # - derive/'//
+    - derive/x$/ng/
     - derive/x/f/
     - derive/l/r/
     # - derive/p/f/
@@ -72,16 +77,102 @@ speller:
     - derive/^([A-Za-z]+)\d$/$1/
 
 translator:
-  dictionary: hnc_romaja
-  prism: hnc_romaja
+  dictionary: hnc_romaja_mod
+  prism: hnc_romaja_mod
   spelling_hints: 9
   preedit_format:
+    - xform/ /'/
+    - xform/wa/oa/
+    - xform/w[eo]/ue/
+    - xform/f/x/
+    - xform/r/l/
+
+    # double final consonants
+    - xform/gs/ᆪ/
+    - xform/nj/ᆬ/
+    - xform/nh/ᆭ/
+    - xform/lg/ᆰ/
+    - xform/lm/ᆱ/
+    - xform/lb/ᆲ/
+    - xform/ls/ᆳ/
+    - xform/lt/ᆴ/
+    - xform/lp/ᆵ/
+    - xform/lh/ᆶ/
+    - xform/bs/ᆹ/
+
+    # tense and lax consonant pairs
+    - xform/G($|')/ᆩ$1/
+    - xform/G/ᄁ/
+    - xform/g($|')/ᆨ$1/
+    - xform/g/ᄀ/
+
+    - xform/S($|')/ᆻ$1/
+    - xform/S/ᄊ/
+    - xform/s($|')/ᆺ$1/
+    - xform/s/ᄉ/
+
+    # - derive/([^aeiou]|^)bb/$1B/
+    - xform/B/ᄈ/
+    - xform/b($|')/ᆸ$1/
+    - xform/b/ᄇ/
+
+    - xform/D/ᄄ/
+    - xform/d($|')/ᆮ$1/
+    - xform/d/ᄃ/
+
+    - xform/J/ᄍ/
+    - xform/j($|')/ᆽ$1/
+    - xform/j/ᄌ/
+
+    # Rest of the consonants
+    - xform/l($|')/ᆯ$1/
+    - xform/l/ᄅ/
+
+    - xform/m($|')/ᆷ$1/
+    - xform/m/ᄆ/
+
+    - xform/h($|')/ᇂ$1/
+    - xform/h/ᄒ/
+
+    - xform/n($|')/ᆫ$1/
+    - xform/n/ᄂ/
+
+    - xform/c($|')/ᆾ$1/
+    - xform/c/ᄎ/
+
+    - xform/p($|')/ᇁ$1/
+    - xform/p/ᄑ/
+
+    - xform/t($|')/ᇀ$1/
+    - xform/t/ᄐ/
+
+    - xform/k($|')/ᆿ$1/
+    - xform/k/ᄏ/
+
+    - xform/iai/ᅤ/
+    - xform/iei/ᅨ/
+    - xform/uei/ᅰ/
+    - xform/ai/ᅢ/
+    - xform/ei/ᅦ/
+    - xform/ia/ᅣ/
+    - xform/ie/ᅧ/
+    - xform/io/ᅭ/
+    - xform/iu/ᅲ/
+    - xform/ue/ᅯ/
+    - xform/ui/ᅱ/
+    - xform/wi/ᅴ/
+    - xform/o/ᅩ/
+    - xform/e/ᅥ/
+    - xform/a/ᅡ/
+    - xform/i/ᅵ/
+    - xform/u/ᅮ/
+    - xform/w/ᅳ/
+    - xform/(^|')x/ᄋ/
+    - xform/x/ᆼ/
     - xform/'/ /
-    - xform/(^|[ '])[xf]/$1/
-    - xform/x/ng/
-  comment_format:
-    - xform/(^|[ '])[xf]/$1/
-    - xform/x/ng/
+  # comment_format:
+  #   - xform/(^|[ '])[xf]/$1/
+  #   - xform/x/ng/
 
 reverse_lookup:
   dictionary: hnc_hanja_mod
