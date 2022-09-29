@@ -34,7 +34,7 @@ engine:
     - selector
     - navigator
     - express_editor
-    - fluency_editor
+    # - fluency_editor
   segmentors:
     - ascii_segmentor
     - matcher
@@ -43,7 +43,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - r10n_translator
+    - script_translator
     - echo_translator
     - reverse_lookup_translator
   filters:
@@ -134,6 +134,6 @@ recognizer:
   patterns:
     reverse_lookup: "`[a-z]*$"
 
-abc_segmentor:
-  extra_tags:
+# abc_segmentor:
+#   extra_tags:
     #- reverse_lookup
