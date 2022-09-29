@@ -11,8 +11,8 @@ name: hnc_romaja
 version: "0.13"
 sort: by_weight	#original
 use_preset_vocabulary: false
-import_tables:
-  - hnc_hanja
+# import_tables:
+#   - hnc_hanja
 ...
 
 ㄱ	g	0%
