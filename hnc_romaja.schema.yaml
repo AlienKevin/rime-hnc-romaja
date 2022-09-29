@@ -13,7 +13,7 @@ schema:
   description: |
     HNC Romaja for Rime
     ㄱg ㄴn ㄷd ㄹl/r ㅁm ㅂb ㅅs ㅇx
-    ㅈj ㅊc ㅋk ㅌt ㅍpf ㅎh
+    ㅈj ㅊc ㅋk ㅌt ㅍp/f ㅎh
     ㅏaㅐai ㅑia ㅒiai ㅓe ㅔei ㅕie ㅖiei
     ㅗo ㅘoa ㅙoai ㅚoi ㅛio
     ㅜu ㅝue ㅞuei ㅟui ㅠiu
@@ -63,7 +63,7 @@ speller:
     - derive/p/f/
     - derive/i/y/
     - derive/oa/wa/
-    - derive/u([ei])/w$1/
+    - derive/ue/we/
     - derive/ue/wo/
     - derive/i([aeou])/y$1/
     - derive/^([A-Za-z]+)\d$/$1/

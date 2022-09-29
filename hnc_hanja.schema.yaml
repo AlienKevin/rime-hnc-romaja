@@ -37,7 +37,7 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - r10n_translator
+    - script_translator
     - echo_translator
     - reverse_lookup_translator
   filters:
@@ -57,7 +57,7 @@ speller:
     - derive/p/f/
     - derive/u/w/
     - derive/oa/wa/
-    - derive/u([ei])/w$1/
+    - derive/ue/we/
     - derive/ue/wo/
     - derive/i([aeou])/y$1/
     - derive/^([A-Za-z]+)\d$/$1/
