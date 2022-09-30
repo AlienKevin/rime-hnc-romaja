@@ -65,7 +65,7 @@ speller:
     # - derive/(^|[ '])x?([aeiouy])/$1$2/
     # - derive/([^aeiou]|^)B/$1bb/
     # - derive/'//
-    - derive/x$/ng/
+    # - derive/x$/ng/
     - derive/x/f/
     - derive/l/r/
     # - derive/p/f/
@@ -103,51 +103,50 @@ translator:
     # tense and lax consonant pairs
     - xform/G($|')/ᆩ$1/
     - xform/G/ᄁ/
-    - xform/g($|')/ᆨ$1/
+    - xform/([aeiouw])g($|'|[^aeiouw])/$1ᆨ$2/
     - xform/g/ᄀ/
 
     - xform/S($|')/ᆻ$1/
     - xform/S/ᄊ/
-    - xform/s($|')/ᆺ$1/
+    - xform/([aeiouw])s($|'|[^aeiouw])/$1ᆺ$2/
     - xform/s/ᄉ/
 
     # - derive/([^aeiou]|^)bb/$1B/
     - xform/B/ᄈ/
-    - xform/b($|')/ᆸ$1/
+    - xform/([aeiouw])b($|'|[^aeiouw])/$1ᆸ$2/
     - xform/b/ᄇ/
 
     - xform/D/ᄄ/
-    - xform/d($|')/ᆮ$1/
+    - xform/([aeiouw])d($|'|[^aeiouw])/$1ᆮ$2/
     - xform/d/ᄃ/
 
     - xform/J/ᄍ/
-    - xform/j($|')/ᆽ$1/
+    - xform/([aeiouw])j($|'|[^aeiouw])/$1ᆽ$2/
     - xform/j/ᄌ/
 
     # Rest of the consonants
-    - xform/l($|')/ᆯ$1/
+    - xform/([aeiouw])l($|'|[^aeiouw])/$1ᆯ$2/
     - xform/l/ᄅ/
 
-    - xform/m($|')/ᆷ$1/
+    - xform/([aeiouw])m($|'|[^aeiouw])/$1ᆷ$2/
     - xform/m/ᄆ/
 
-    - xform/'h($|')/ㅎ/
-    - xform/h($|')/ᇂ$1/
+    - xform/([aeiouw])h($|'|[^aeiouw])/$1ᇂ$2/
     - xform/h/ᄒ/
 
-    - xform/n($|')/ᆫ$1/
+    - xform/([aeiouw])n($|'|[^aeiouw])/$1ᆫ$2/
     - xform/n/ᄂ/
 
-    - xform/c($|')/ᆾ$1/
+    - xform/([aeiouw])c($|'|[^aeiouw])/$1ᆾ$2/
     - xform/c/ᄎ/
 
-    - xform/p($|')/ᇁ$1/
+    - xform/([aeiouw])p($|'|[^aeiouw])/$1ᇁ$2/
     - xform/p/ᄑ/
 
-    - xform/t($|')/ᇀ$1/
+    - xform/([aeiouw])t($|'|[^aeiouw])/$1ᇀ$2/
     - xform/t/ᄐ/
 
-    - xform/k($|')/ᆿ$1/
+    - xform/([aeiouw])k($|'|[^aeiouw])/$1ᆿ$2/
     - xform/k/ᄏ/
 
     - xform/iai/ᅤ/
