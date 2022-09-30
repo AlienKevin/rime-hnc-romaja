@@ -176,13 +176,13 @@ translator:
   #   - xform/(^|[ '])[xf]/$1/
   #   - xform/x/ng/
 
-reverse_lookup:
-  dictionary: hnc_hanja_mod
-  prefix: "`"
-  tips: 〔漢字・한자〕
-  comment_format:
-    - xform/(^|[ '])x/$1/
-    - xform/x/ng/
+# reverse_lookup:
+#   dictionary: hnc_hanja_mod
+#   prefix: "`"
+#   tips: 〔漢字・한자〕
+#   comment_format:
+#     - xform/(^|[ '])x/$1/
+#     - xform/x/ng/
 
 punctuator:
   import_preset: default
