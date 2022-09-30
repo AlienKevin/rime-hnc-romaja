@@ -72,5 +72,19 @@
 |  ㆌ  |  iui |
 |  ㅢ  |  wi |
 
+# HNC Romaja (Modified Version)
+
+## Schema Name
+`hnc_romaja_mod`
+
+## Changes to HNC Romaja
+1. Can type out ㅇ with the `f` key in addition to the `x` key.
+2. Require typing capital letters for double consonants. For example, we support typing `G` for ㄲ and `S` for ㅆ. On the other hand, typing `gg` for ㄲ and `ss` for ㅆ are not supported.
+   
+## Rationales for Change
+1. While ㅇ is the most frequent Hangul jamo in writing, the `x` key is not the most comfortable location to press. To improve comfort and speed, we also allow pressing the `f` key to type out ㅇ. So in the modified version, `f` no longer maps to ㅍ.
+
+2. In the unmodified HNC Romaja, double consonants like ㄲ can be typed out using `gg` or `G`. At the syllable final position, the key sequence `gg` is ambiguous. For example, when you type the sequence `bagg`, we don't know whether you want to type the word 밖 or 박구기. In other words, we don't know whether to split the `gg` or not. At the syllable initial position, however, there's no such ambiguity. To simplify things and improve consistency, we require you to always type the capital letters for the corresponding double consonants.
+
 # Credits
 This schema is a fork of https://github.com/rime-aca/rime-hangyl.
