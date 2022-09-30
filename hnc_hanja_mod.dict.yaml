@@ -15,7 +15,7 @@
 name: hnc_hanja_mod
 version: "0.7"	#2020.05.31
 sort: by_weight	#original
-use_preset_vocabulary: true
+# use_preset_vocabulary: true
 import_tables:
   - hnc_romaja_mod
 ...
