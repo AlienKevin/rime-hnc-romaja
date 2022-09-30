@@ -4,6 +4,9 @@
 
 # Schema
 
+## Schema Name
+`hnc_romaja`
+
 ## Single-Key Jamos
 | Jamo | Key | Alternative Keys |
 |-----|------|-----------------|
@@ -31,6 +34,17 @@
 (*) Note: ng can only be used in two situations:
 1. To type a single syllable ㅇ (U+3147, Hangul letter ieung) or ㆁ (U+3181, Hangul letter Yesieung, merged with ㅇ in modern Korean).
 2. At the end of a syllable. For example, you can type "bang" or "bax" to get 방. However, you can only type "xa" to get 아 while typing "nga" gives you "ㄴ가".
+
+## Double Consonants
+| Jamo | Keys | Alternative Keys |
+|-----|-----|-----------------|
+|  ㄲ  |  G  | gg* |
+|  ㅆ  |  S  | ss* |
+|  ㄸ  |  D  | dd |
+|  ㅉ  |  J  | jj |
+|  ㅃ  |  B  | bb |
+
+(*) Note: `gg` and `ss` do not produce `ㄲ` and `ㅆ` at syllable final position. Instead, they produce two separate `ㄱㄱ` and `ㅅㅅ` respectively. See the Rationale for Change section of the modified HNC Romaja below for an explanation.
 
 ## Multi-Key Jamos
 
