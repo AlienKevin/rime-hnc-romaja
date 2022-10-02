@@ -51,6 +51,7 @@ engine:
     - script_translator
     - echo_translator
     - reverse_lookup_translator
+    - lua_translator@hangul_translator
   filters:
     - simplifier
     - uniquifier
@@ -76,105 +77,105 @@ speller:
     - derive/i([aeou])/y$1/
     - derive/^([A-Za-z]+)\d$/$1/
 
-translator:
-  dictionary: hnc_romaja_mod
-  prism: hnc_romaja_mod
-  spelling_hints: 9
-  preedit_format:
-    - xform/ /'/
-    - xform/wa/oa/
-    - xform/w[eo]/ue/
-    - xform/f/x/
-    - xform/r/l/
+# translator:
+#   dictionary: hnc_romaja_mod
+#   prism: hnc_romaja_mod
+#   spelling_hints: 9
+#   preedit_format:
+#     - xform/ /'/
+#     - xform/wa/oa/
+#     - xform/w[eo]/ue/
+#     - xform/f/x/
+#     - xform/r/l/
 
-    # double final consonants
-    - xform/gs/ᆪ/
-    - xform/nj/ᆬ/
-    - xform/nh/ᆭ/
-    - xform/lg/ᆰ/
-    - xform/lm/ᆱ/
-    - xform/lb/ᆲ/
-    - xform/ls/ᆳ/
-    - xform/lt/ᆴ/
-    - xform/lp/ᆵ/
-    - xform/lh/ᆶ/
-    - xform/bs/ᆹ/
+#     # double final consonants
+#     - xform/gs/ᆪ/
+#     - xform/nj/ᆬ/
+#     - xform/nh/ᆭ/
+#     - xform/lg/ᆰ/
+#     - xform/lm/ᆱ/
+#     - xform/lb/ᆲ/
+#     - xform/ls/ᆳ/
+#     - xform/lt/ᆴ/
+#     - xform/lp/ᆵ/
+#     - xform/lh/ᆶ/
+#     - xform/bs/ᆹ/
 
-    # tense and lax consonant pairs
-    - xform/G($|')/ᆩ$1/
-    - xform/G/ᄁ/
-    - xform/([aeiouw])g($|'|[^aeiouw])/$1ᆨ$2/
-    - xform/g/ᄀ/
+#     # tense and lax consonant pairs
+#     - xform/G($|')/ᆩ$1/
+#     - xform/G/ᄁ/
+#     - xform/([aeiouw])g($|'|[^aeiouw])/$1ᆨ$2/
+#     - xform/g/ᄀ/
 
-    - xform/S($|')/ᆻ$1/
-    - xform/S/ᄊ/
-    - xform/([aeiouw])s($|'|[^aeiouw])/$1ᆺ$2/
-    - xform/s/ᄉ/
+#     - xform/S($|')/ᆻ$1/
+#     - xform/S/ᄊ/
+#     - xform/([aeiouw])s($|'|[^aeiouw])/$1ᆺ$2/
+#     - xform/s/ᄉ/
 
-    # - derive/([^aeiou]|^)bb/$1B/
-    - xform/B/ᄈ/
-    - xform/([aeiouw])b($|'|[^aeiouw])/$1ᆸ$2/
-    - xform/b/ᄇ/
+#     # - derive/([^aeiou]|^)bb/$1B/
+#     - xform/B/ᄈ/
+#     - xform/([aeiouw])b($|'|[^aeiouw])/$1ᆸ$2/
+#     - xform/b/ᄇ/
 
-    - xform/D/ᄄ/
-    - xform/([aeiouw])d($|'|[^aeiouw])/$1ᆮ$2/
-    - xform/d/ᄃ/
+#     - xform/D/ᄄ/
+#     - xform/([aeiouw])d($|'|[^aeiouw])/$1ᆮ$2/
+#     - xform/d/ᄃ/
 
-    - xform/J/ᄍ/
-    - xform/([aeiouw])j($|'|[^aeiouw])/$1ᆽ$2/
-    - xform/j/ᄌ/
+#     - xform/J/ᄍ/
+#     - xform/([aeiouw])j($|'|[^aeiouw])/$1ᆽ$2/
+#     - xform/j/ᄌ/
 
-    # Rest of the consonants
-    - xform/([aeiouw])l($|'|[^aeiouw])/$1ᆯ$2/
-    - xform/l/ᄅ/
+#     # Rest of the consonants
+#     - xform/([aeiouw])l($|'|[^aeiouw])/$1ᆯ$2/
+#     - xform/l/ᄅ/
 
-    - xform/([aeiouw])m($|'|[^aeiouw])/$1ᆷ$2/
-    - xform/m/ᄆ/
+#     - xform/([aeiouw])m($|'|[^aeiouw])/$1ᆷ$2/
+#     - xform/m/ᄆ/
 
-    - xform/([aeiouw])h($|'|[^aeiouw])/$1ᇂ$2/
-    - xform/h/ᄒ/
+#     - xform/([aeiouw])h($|'|[^aeiouw])/$1ᇂ$2/
+#     - xform/h/ᄒ/
 
-    - xform/([aeiouw])n($|'|[^aeiouw])/$1ᆫ$2/
-    - xform/n/ᄂ/
+#     - xform/([aeiouw])n($|'|[^aeiouw])/$1ᆫ$2/
+#     - xform/n/ᄂ/
 
-    - xform/([aeiouw])c($|'|[^aeiouw])/$1ᆾ$2/
-    - xform/c/ᄎ/
+#     - xform/([aeiouw])c($|'|[^aeiouw])/$1ᆾ$2/
+#     - xform/c/ᄎ/
 
-    - xform/([aeiouw])p($|'|[^aeiouw])/$1ᇁ$2/
-    - xform/p/ᄑ/
+#     - xform/([aeiouw])p($|'|[^aeiouw])/$1ᇁ$2/
+#     - xform/p/ᄑ/
 
-    - xform/([aeiouw])t($|'|[^aeiouw])/$1ᇀ$2/
-    - xform/t/ᄐ/
+#     - xform/([aeiouw])t($|'|[^aeiouw])/$1ᇀ$2/
+#     - xform/t/ᄐ/
 
-    - xform/([aeiouw])k($|'|[^aeiouw])/$1ᆿ$2/
-    - xform/k/ᄏ/
+#     - xform/([aeiouw])k($|'|[^aeiouw])/$1ᆿ$2/
+#     - xform/k/ᄏ/
 
-    - xform/iai/ᅤ/
-    - xform/iei/ᅨ/
-    - xform/uei/ᅰ/
-    - xform/oai/ᅫ/
-    - xform/ai/ᅢ/
-    - xform/ei/ᅦ/
-    - xform/ia/ᅣ/
-    - xform/ie/ᅧ/
-    - xform/io/ᅭ/
-    - xform/iu/ᅲ/
-    - xform/ue/ᅯ/
-    - xform/ui/ᅱ/
-    - xform/wi/ᅴ/
-    - xform/oa/ᅪ/
-    - xform/o/ᅩ/
-    - xform/e/ᅥ/
-    - xform/a/ᅡ/
-    - xform/i/ᅵ/
-    - xform/u/ᅮ/
-    - xform/w/ᅳ/
-    - xform/(^|')x/ᄋ/
-    - xform/x/ᆼ/
-    - xform/'//
-  comment_format:
-    - xform/(^|[ '])x/$1/
-    - xform/x/ng/
+#     - xform/iai/ᅤ/
+#     - xform/iei/ᅨ/
+#     - xform/uei/ᅰ/
+#     - xform/oai/ᅫ/
+#     - xform/ai/ᅢ/
+#     - xform/ei/ᅦ/
+#     - xform/ia/ᅣ/
+#     - xform/ie/ᅧ/
+#     - xform/io/ᅭ/
+#     - xform/iu/ᅲ/
+#     - xform/ue/ᅯ/
+#     - xform/ui/ᅱ/
+#     - xform/wi/ᅴ/
+#     - xform/oa/ᅪ/
+#     - xform/o/ᅩ/
+#     - xform/e/ᅥ/
+#     - xform/a/ᅡ/
+#     - xform/i/ᅵ/
+#     - xform/u/ᅮ/
+#     - xform/w/ᅳ/
+#     - xform/(^|')x/ᄋ/
+#     - xform/x/ᆼ/
+#     - xform/'//
+#   comment_format:
+#     - xform/(^|[ '])x/$1/
+#     - xform/x/ng/
 
 reverse_lookup:
   dictionary: hnc_hanja_mod
